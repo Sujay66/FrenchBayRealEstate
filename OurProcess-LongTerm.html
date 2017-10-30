@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="JS/OurStory-LongTerm/modernizr.min.js"></script>
+  <script src="JS/PopUps/PopUp.js" type="text/javascript"></script>
+	<script src="js/theme.js" type="text/javascript"></script>
+	<script src="JS/OurStory-LongTerm/openPage.js" type="text/javascript"></script>
+	<script type="text/javascript" src="JS/FAQPage/script.js" defer= "defer"></script>
+	<link rel="shortcut icon" href="IMG/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="CSS/OurStory-LongTerm/component.css" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/OurStory-LongTerm/longtermprocessstyle.css">
+  <link rel="stylesheet" href="CSS/OurStory-LongTerm/ShortLongCommon.css">
+  <link href="CSS/PopUps/CottageWatchPopUp2.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="CSS/header.css">
+
+
+	<title>Long Term Rental</title>
+</head>
+<body onresize="modalOperation()">
+
+	<section id="preloader">
+			<div class="loader" id="loader">
+			</div>
+	</section>
+
+	<nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" style="width:50px;height:50px;padding:0px;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="brand"><img src="img/companylogo.svg"class="companylogo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="mt-20 collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-custom valign">
+          <li><a href="cottagewatch.html">COTTAGE WATCH</a></li>
+          <li><a href="OurProcess-ShortTerm.html">OUR PROCESS</a></li>
+          <li><a href="OurStoryPage.html">OUR STORY</a></li>
+					<li><a class= "cd-herder-contactus anchorLink" id="contactUS" href="#myAnchor" id="anchor1" href='javascript:;' onclick='display();'><span>CONTACT&nbsp;US</span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+	  <section id="myModal" class="modal-sujay">
+  <div align="center" class="modal-content-sujay" >
+
+    <span class="modal-close" onclick='closepopup();'>&times;</span>
+
+
+
+    <h2 class="modal-header-sujay">Get In Touch With Us</h2>
+		<div class="text-below-header">
+			<p class="modal-header-body-text-content-sujay">
+				A real estate company for the sophisticated owner. Defining new ways to live, earn, and prosper through vacation homeownership.
+				</p>
+					</p>
+		</div>
+
+      <div style="padding: 15px 25px 10px 25px;">
+					<form action="/ourstory" class="form-horizontal" method="post" target="_self" novalidate>
+
+          <div class="form-group">
+            <div class="col-sm-6">
+              <label class="labelClass">NAME</label>
+              <input  type="text" class="form-control modalTextAreaTextboxFont" name= "FNAME" placeholder="ex. John Smith">
+
+                    <label class="labelClass" style="padding-top: 14px">EMAIL</label>
+                    <input type="text"  class="form-control modalTextAreaTextboxFont"  name="EMAIL" placeholder="ex. example@gmail.com">
+                    </div>
+                    <div class="col-sm-6">
+                      <label class="labelClass">MESSAGE</label>
+                      <textarea  class="form-control modalTextAreaTextboxFont" name = "MESSAGE" rows="7" style="resize: none" id="TextArea"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-12" align="center">
+                      <button type="submit" style="margin-top: 5%; margin-bottom: 0%">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </section>
+
+
+  <div class="cd-middle-banner container row">
+    <section  >
+  	   <img class= "cd-banner" src="IMG/OurStory-LongTerm/ourstory1.svg" alt="banner">
+      	<div class ="cd-image-txt3">Long Term Rental</div>
+        <div class ="cd-image-txt4"><a href="OurProcess-ShortTerm.html" class="cd-banner-link">SHORT TERM RENTAL</a></div>
+    </section>
+  </div>
+	<div class ="cd-center-list mt-590">
+ 	  <div class="cd-center-list-imageR">
+ 	    <img src="IMG/OurStory-LongTerm/Trail1.svg" ></img></a>
+ 	  </div>
+ 	  <div class="cd-center-list-contentR">
+ 	    <div class="cd-center-list-content-header">
+ 	      GOALS DEVELOPMENT
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      The rental journey begins by fully understanding your goals and desired outcomes for your investment property. Over coffee, we'll work with you to identify when you'd like to begin renting your property, for how long you'd like to rent it, and most importantly why you want to rent and to whom—lease application.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <div class= "cd-svg">
+ 	  <svg  id="trail1" class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 	      <g id="cd-trail1-g" transform="scale(1.5) translate(4,6)" stroke-width="1.5">
+ 	        <path d="M 10,35 L 10 55" fill="none" stroke="black" />
+ 	        <path d="M10 65 Q 10 80 25 80" stroke="black" fill="transparent"/>
+ 	        <path d="M35,80 L 55 80" fill="none" stroke="black"/>
+ 	        <path d="M65,80 L 85 80" fill="none" stroke="black" />
+ 	        <path d="M95,80 L 115 80" fill="none" stroke="black"/>
+ 	        <path d="M125,80 L 145 80" fill="none" stroke="black"/>
+ 	        <path d="M155,80 L 175 80" fill="none" stroke="black"/>
+ 	        <path d="M185,80 L 205 80" fill="none" stroke="black"/>
+ 	        <path d="M215,80 L 235 80" fill="none" stroke="black"/>
+ 	        <path d="M245,80 L 265 80" fill="none" stroke="black"/>
+ 	        <path d="M275,80 L 295 80" fill="none" stroke="black"/>
+ 	        <path d="M305,80 L 325 80" fill="none" stroke="black"/>
+ 	        <path d="M335,80 L 355 80" fill="none" stroke="black"/>
+ 	        <path d="M365,80 L 385 80" fill="none" stroke="black"/>
+ 	        <path d="M395,80 L 415 80" fill="none" stroke="black"/>
+ 	        <path d="M425,80 L 445 80" fill="none" stroke="black"/>
+ 	        <path d="M455,80 L 475 80" fill="none" stroke="black"/>
+ 	        <path d="M485,80 L 505 80" fill="none" stroke="black"/>
+ 	        <path d="M515,80 L 535 80" fill="none" stroke="black"/>
+ 	        <path d="M545,80 L 565 80" fill="none" stroke="black"/>
+ 	        <path d="M575,80 L 595 80" fill="none" stroke="black"/>
+ 	        <path d="M605,80 L 625 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M665,80 L 685 80" fill="none" stroke="black"/>
+ 	        <path d="M695,80 L 715 80" fill="none" stroke="black"/>
+ 	        <path d="M725,80 L 745 80" fill="none" stroke="black"/>
+ 	        <path d="M755,80 L 775 80" fill="none" stroke="black"/>
+ 	        <path d="M785,80 L 805 80" fill="none" stroke="black"/>
+ 	        <path d="M813 80 Q 825 80 825 95" stroke="black" fill="transparent"/>
+ 	        <path d="M 825,105 L 825 125" fill="none" stroke="black"/>
+ 	      </g>
+ 	  </svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageL">
+ 	    <img src="IMG/OurStory-LongTerm/Trail2.svg" ></img></a>
+ 	  </div>
+
+ 		<div class="cd-center-list-contentL">
+ 	    <div class="cd-center-list-content-header">
+ 	      PROPERTY ASSESMENT
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	     We do a thorough walk-through of your property with you to identify its key selling points and those one of a kind characteristics renters will fall in love with while living in your house. We also do an analysis of comparable properties and local community assets to ensure you’re receiving top dollar each month.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <div class= "cd-svg">
+ 	  <svg  id="trail2" class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 	     <g transform="scale(1.6) translate(4,6)" stroke-width="1.5">
+ 	      <path d="M 783,35 L 783 55" fill="none" stroke="black"/>
+ 	      <path d="M783 65 Q 783 80 770 80" stroke="black" fill="transparent"/>
+ 				<path d="M740,80 L 760 80" fill="none" stroke="black"/>
+ 	      <path d="M710,80 L 730 80" fill="none" stroke="black"/>
+ 	      <path d="M685,80 L 700 80" fill="none" stroke="black"/>
+ 	      <path d="M675 80 L 655 80" fill="none" stroke="black"/>
+ 	      <path d="M645 80 L 625 80" fill="none" stroke="black"/>
+ 	      <path d="M615 80 L 595 80" fill="none" stroke="black"/>
+ 	      <path d="M585 80 L 565 80" fill="none" stroke="black"/>
+ 	      <path d="M555 80 L 535 80" fill="none" stroke="black"/>
+ 	      <path d="M525 80 L 505 80" fill="none" stroke="black"/>
+ 	      <path d="M495 80 L 475 80" fill="none" stroke="black"/>
+ 	      <path d="M485 80 L 465 80" fill="none" stroke="black"/>
+ 	      <path d="M455 80 L 435 80" fill="none" stroke="black"/>
+ 	      <path d="M425 80 L 405 80" fill="none" stroke="black"/>
+ 	      <path d="M395 80 L 375 80" fill="none" stroke="black"/>
+ 	      <path d="M365 80 L 345 80" fill="none" stroke="black"/>
+ 	      <path d="M335 80 L 315 80" fill="none" stroke="black"/>
+ 	      <path d="M305 80 L 285 80" fill="none" stroke="black"/>
+ 	      <path d="M275 80 L 255 80" fill="none" stroke="black"/>
+ 	      <path d="M245 80 L 225 80" fill="none" stroke="black"/>
+ 	      <path d="M215 80 L 195 80" fill="none" stroke="black"/>
+ 	      <path d="M185 80 L 165 80" fill="none" stroke="black"/>
+ 	      <path d="M155 80 L 130 80" fill="none" stroke="black"/>
+ 	      <path d="M120 80 L 95 80" fill="none" stroke="black"/>
+ 	      <path d="M85 80 L 65 80" fill="none" stroke="black"/>
+ 	      <path d="M55 80 L 35 80" fill="none" stroke="black"/>
+ 	      <path d="M25 80 Q 10 80 10 95" stroke="black"fill="transparent"/>
+ 	      <path d="M 10,105 L 10 123" fill="none" stroke="black"/>
+ 	          </g>
+ 	  </svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageR">
+ 	    <img src="IMG/OurStory-LongTerm/Trail3.svg" ></img></a>
+ 	  </div>
+ 	  <div class="cd-center-list-contentR">
+ 	    <div class="cd-center-list-content-header">
+ 	      PROFILE CONSTRUCTION
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      We work to build a compelling profile of your property, including important community, regional, and site specific highlights in an effort to help interested tenants visualize themselves spending the next month or year at your property. Lawn care, heating, or water are only a few of the amenities you may include to entice the best renters.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <div class= "cd-svg">
+ 	  <svg  id="trail3" class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 	      <g transform="scale(1.5) translate(4,6)" stroke-width="1.5">
+ 	        <path d="M 10,35 L 10 55" fill="none" stroke="black" />
+ 	        <path d="M10 65 Q 10 80 25 80" stroke="black" fill="transparent"/>
+ 	        <path d="M35,80 L 55 80" fill="none" stroke="black"/>
+ 	        <path d="M65,80 L 85 80" fill="none" stroke="black" />
+ 	        <path d="M95,80 L 115 80" fill="none" stroke="black"/>
+ 	        <path d="M125,80 L 145 80" fill="none" stroke="black"/>
+ 	        <path d="M155,80 L 175 80" fill="none" stroke="black"/>
+ 	        <path d="M185,80 L 205 80" fill="none" stroke="black"/>
+ 	        <path d="M215,80 L 235 80" fill="none" stroke="black"/>
+ 	        <path d="M245,80 L 265 80" fill="none" stroke="black"/>
+ 	        <path d="M275,80 L 295 80" fill="none" stroke="black"/>
+ 	        <path d="M305,80 L 325 80" fill="none" stroke="black"/>
+ 	        <path d="M335,80 L 355 80" fill="none" stroke="black"/>
+ 	        <path d="M365,80 L 385 80" fill="none" stroke="black"/>
+ 	        <path d="M395,80 L 415 80" fill="none" stroke="black"/>
+ 	        <path d="M425,80 L 445 80" fill="none" stroke="black"/>
+ 	        <path d="M455,80 L 475 80" fill="none" stroke="black"/>
+ 	        <path d="M485,80 L 505 80" fill="none" stroke="black"/>
+ 	        <path d="M515,80 L 535 80" fill="none" stroke="black"/>
+ 	        <path d="M545,80 L 565 80" fill="none" stroke="black"/>
+ 	        <path d="M575,80 L 595 80" fill="none" stroke="black"/>
+ 	        <path d="M605,80 L 625 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	        <path d="M665,80 L 685 80" fill="none" stroke="black"/>
+ 	        <path d="M695,80 L 715 80" fill="none" stroke="black"/>
+ 	        <path d="M725,80 L 745 80" fill="none" stroke="black"/>
+ 	        <path d="M755,80 L 775 80" fill="none" stroke="black"/>
+ 	        <path d="M785,80 L 805 80" fill="none" stroke="black"/>
+ 	        <path d="M813 80 Q 825 80 825 95" stroke="black" fill="transparent"/>
+ 	        <path d="M 825,105 L 825 125" fill="none" stroke="black"/>
+ 	      </g>
+ 	  </svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageL">
+ 	    <img src="IMG/OurStory-LongTerm/Trail4.svg" ></img></a>
+ 	  </div>
+ 		<div class="cd-center-list-contentL">
+ 	    <div class="cd-center-list-content-header">
+ 	      PHOTOGRAPHY & STAGING
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      Beginning first with staging the site, we capture each room and outdoor setting in a manner that welcomes renters in and encourages them to call your property home. We work with you to determine the pros and cons of offering a furnished rental and how you might be able to provide affordable furniture to your tenants.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <div class= "cd-svg">
+ 	  <svg id="trail4"  class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 		<g transform="scale(1.5) translate(4,6)" stroke-width="1.5">
+ 		 <path d="M 825,35 L 825 55" fill="none" stroke="black"/>
+ 		 <path d="M825 65 Q 825 80 813 80" stroke="black" fill="transparent"/>
+ 		 <path d="M695,80 L 715 80" fill="none" stroke="black"/>
+ 		 <path d="M725,80 L 745 80" fill="none" stroke="black"/>
+ 		 <path d="M755,80 L 775 80" fill="none" stroke="black"/>
+ 		 <path d="M785,80 L 805 80" fill="none" stroke="black"/>
+ 		 <path d="M675 80 L 655 80" fill="none" stroke="black"/>
+ 		 <path d="M645 80 L 625 80" fill="none" stroke="black"/>
+ 		 <path d="M615 80 L 595 80" fill="none" stroke="black"/>
+ 		 <path d="M585 80 L 565 80" fill="none" stroke="black"/>
+ 		 <path d="M555 80 L 535 80" fill="none" stroke="black"/>
+ 		 <path d="M525 80 L 505 80" fill="none" stroke="black"/>
+ 		 <path d="M495 80 L 475 80" fill="none" stroke="black"/>
+ 		 <path d="M485 80 L 465 80" fill="none" stroke="black"/>
+ 		 <path d="M455 80 L 435 80" fill="none" stroke="black"/>
+ 		 <path d="M425 80 L 405 80" fill="none" stroke="black"/>
+ 		 <path d="M395 80 L 375 80" fill="none" stroke="black"/>
+ 		 <path d="M365 80 L 345 80" fill="none" stroke="black"/>
+ 		 <path d="M335 80 L 315 80" fill="none" stroke="black"/>
+ 		 <path d="M305 80 L 285 80" fill="none" stroke="black"/>
+ 		 <path d="M275 80 L 255 80" fill="none" stroke="black"/>
+ 		 <path d="M245 80 L 225 80" fill="none" stroke="black"/>
+ 		 <path d="M215 80 L 195 80" fill="none" stroke="black"/>
+ 		 <path d="M185 80 L 165 80" fill="none" stroke="black"/>
+ 		 <path d="M155 80 L 130 80" fill="none" stroke="black"/>
+ 		 <path d="M120 80 L 95 80" fill="none" stroke="black"/>
+ 		 <path d="M85 80 L 65 80" fill="none" stroke="black"/>
+ 		 <path d="M55 80 L 35 80" fill="none" stroke="black"/>
+ 		 <path d="M25 80 Q 10 80 10 95" stroke="black"fill="transparent"/>
+ 		 <path d="M 10,105 L 10 123" fill="none" stroke="black"/>
+ 	        </g>
+ 			</svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageR">
+ 	    <img src="IMG/OurStory-LongTerm/Trail5.svg" ></img></a>
+ 	  </div>
+ 	  <div class="cd-center-list-contentR">
+ 	    <div class="cd-center-list-content-header">
+ 	      LISTING & MARKETING
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      We specialize in marketing your property across the top listing services—Zillow, Trulia, Craigslist, Hotpads— saving you the hassle and ensuring your vacancy rate is kept low, thus maximizing revenue generation. We'll identify top keywords for your property and work in a coordinated effort to ensure the quickest possible lease signing and tenant move-in.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <div class= "cd-svg">
+ 		<svg id="trail5" class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 	    <g transform="scale(1.5) translate(4,6)" stroke-width="1.5">
+ 	      <path d="M 10,35 L 10 55" fill="none" stroke="black" />
+ 	      <path d="M10 65 Q 10 80 25 80" stroke="black" fill="transparent"/>
+ 	      <path d="M35,80 L 55 80" fill="none" stroke="black"/>
+ 	      <path d="M65,80 L 85 80" fill="none" stroke="black" />
+ 	      <path d="M95,80 L 115 80" fill="none" stroke="black"/>
+ 	      <path d="M125,80 L 145 80" fill="none" stroke="black"/>
+ 	      <path d="M155,80 L 175 80" fill="none" stroke="black"/>
+ 	      <path d="M185,80 L 205 80" fill="none" stroke="black"/>
+ 	      <path d="M215,80 L 235 80" fill="none" stroke="black"/>
+ 	      <path d="M245,80 L 265 80" fill="none" stroke="black"/>
+ 	      <path d="M275,80 L 295 80" fill="none" stroke="black"/>
+ 	      <path d="M305,80 L 325 80" fill="none" stroke="black"/>
+ 	      <path d="M335,80 L 355 80" fill="none" stroke="black"/>
+ 	      <path d="M365,80 L 385 80" fill="none" stroke="black"/>
+ 	      <path d="M395,80 L 415 80" fill="none" stroke="black"/>
+ 	      <path d="M425,80 L 445 80" fill="none" stroke="black"/>
+ 	      <path d="M455,80 L 475 80" fill="none" stroke="black"/>
+ 	      <path d="M485,80 L 505 80" fill="none" stroke="black"/>
+ 	      <path d="M515,80 L 535 80" fill="none" stroke="black"/>
+ 	      <path d="M545,80 L 565 80" fill="none" stroke="black"/>
+ 	      <path d="M575,80 L 595 80" fill="none" stroke="black"/>
+ 	      <path d="M605,80 L 625 80" fill="none" stroke="black"/>
+ 	      <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	      <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	      <path d="M635,80 L 655 80" fill="none" stroke="black"/>
+ 	      <path d="M665,80 L 685 80" fill="none" stroke="black"/>
+ 	      <path d="M695,80 L 715 80" fill="none" stroke="black"/>
+ 	      <path d="M725,80 L 745 80" fill="none" stroke="black"/>
+ 	      <path d="M755,80 L 775 80" fill="none" stroke="black"/>
+ 	      <path d="M785,80 L 805 80" fill="none" stroke="black"/>
+ 	      <path d="M813 80 Q 825 80 825 95" stroke="black" fill="transparent"/>
+ 	      <path d="M 825,105 L 825 125" fill="none" stroke="black"/>
+ 	    </g>
+ 		</svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageL">
+ 	    <img src="IMG/OurStory-LongTerm/Trail6.svg" ></img></a>
+ 	  </div>
+ 		<div class="cd-center-list-contentL">
+ 	    <div class="cd-center-list-content-header">
+ 	      PROPERTY LEASING
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      We ensure the most qualified and trustworthy tenant is selected to live in your house. We review each rental application and dig deep to determine the correct fit with your goals and property tolerances. We then work to negotiate a rental price and lease agreement, always keeping in mind the bottom line.
+ 	     </div>
+ 	  </div>
+ 		</div>
+  <div class= "cd-svg">
+ 		<svg id="trail6" class = "cd-center-svg" viewBox="0 0 1400 300" style="background-color:#ffffff00;" xmlns="http://www.w3.org/2000/svg" width="80%" height="200">
+ 		<g transform="scale(1.5) translate(4,6)" stroke-width="1.5">
+ 		 <path d="M 825,35 L 825 55" fill="none" stroke="black"/>
+ 		 <path d="M825 65 Q 825 80 813 80" stroke="black" fill="transparent"/>
+ 		 <path d="M695,80 L 715 80" fill="none" stroke="black"/>
+ 		 <path d="M725,80 L 745 80" fill="none" stroke="black"/>
+ 		 <path d="M755,80 L 775 80" fill="none" stroke="black"/>
+ 		 <path d="M785,80 L 805 80" fill="none" stroke="black"/>
+ 		 <path d="M675 80 L 655 80" fill="none" stroke="black"/>
+ 		 <path d="M645 80 L 625 80" fill="none" stroke="black"/>
+ 		 <path d="M615 80 L 595 80" fill="none" stroke="black"/>
+ 		 <path d="M585 80 L 565 80" fill="none" stroke="black"/>
+ 		 <path d="M555 80 L 535 80" fill="none" stroke="black"/>
+ 		 <path d="M525 80 L 505 80" fill="none" stroke="black"/>
+ 		 <path d="M495 80 L 475 80" fill="none" stroke="black"/>
+ 		 <path d="M485 80 L 465 80" fill="none" stroke="black"/>
+ 		 <path d="M455 80 L 435 80" fill="none" stroke="black"/>
+ 		 <path d="M425 80 L 405 80" fill="none" stroke="black"/>
+ 		 <path d="M395 80 L 375 80" fill="none" stroke="black"/>
+ 		 <path d="M365 80 L 345 80" fill="none" stroke="black"/>
+ 		 <path d="M335 80 L 315 80" fill="none" stroke="black"/>
+ 		 <path d="M305 80 L 285 80" fill="none" stroke="black"/>
+ 		 <path d="M275 80 L 255 80" fill="none" stroke="black"/>
+ 		 <path d="M245 80 L 225 80" fill="none" stroke="black"/>
+ 		 <path d="M215 80 L 195 80" fill="none" stroke="black"/>
+ 		 <path d="M185 80 L 165 80" fill="none" stroke="black"/>
+ 		 <path d="M155 80 L 130 80" fill="none" stroke="black"/>
+ 		 <path d="M120 80 L 95 80" fill="none" stroke="black"/>
+ 		 <path d="M85 80 L 65 80" fill="none" stroke="black"/>
+ 		 <path d="M55 80 L 35 80" fill="none" stroke="black"/>
+ 		 <path d="M25 80 Q 10 80 10 95" stroke="black"fill="transparent"/>
+ 		 <path d="M 10,105 L 10 123" fill="none" stroke="black"/>
+ 	        </g>
+ 			</svg>
+ 	</div>
+  <div class ="cd-center-list">
+ 	  <div class="cd-center-list-imageR">
+ 	    <img src="IMG/OurStory-LongTerm/Trail7.svg" ></img></a>
+ 	  </div>
+ 	  <div class="cd-center-list-contentR">
+ 	    <div class="cd-center-list-content-header">
+ 	      PROPERTY MANAGEMENT
+ 	     </div>
+ 	     <div class="cd-center-list-content-details">
+ 	      After move-in, we continue to engage with your tenants to collect rent, answer questions, manage the grounds, and handle any problems that may arise. We continually monitor your property and provide you with detailed reports so that you know everything is in tip-top shape and that your investment will be profitable for many years to come.
+ 	     </div>
+ 	  </div>
+ 	</div>
+  <br id = "cd-br-display">
+  <br id = "cd-br-display">
+  <div class="sliderOuterDiv">
+ 		<!-- <div class="slideshow-container">
+   	<div class="mySlides">
+ 			  <div class="cd-slides-text1">VACATION HOME RENTER</div>
+ 				<hr class="cd-slides-hr">
+ 				<div class="cd-slides-text2">“The money that I make from Seven Sundays allows
+ 																		me to spend more time with my kids and treat them
+ 																		to once in a lifetime experiences.”</div>
+ 				<div class="cd-slides-text3">- Sarah Williams</div>
+ 			  <img  class= "cd-slides" src="IMG/OurStory-LongTerm/Testimonial-1.jpg" style="width:100%">
+ 			</div>
+ 			<div class="mySlides">
+ 				<div class="cd-slides-text1">VACATION HOME RENTER</div>
+ 				<hr class="cd-slides-hr">
+ 				<div class="cd-slides-text2">“The money that I make from Seven Sundays allows
+ 																		me to spend more time with my kids and treat them
+ 																		to once in a lifetime experiences.”</div>
+ 				<div class="cd-slides-text3">- Sarah Williams</div>
+ 			  <img src="IMG/OurStory-LongTerm/Testimonial-2.png" style="width:100%">
+ 			</div>
+
+ 			<div class="mySlides">
+ 				<div class="cd-slides-text1">VACATION HOME RENTER</div>
+ 				<hr class="cd-slides-hr">
+ 				<div class="cd-slides-text2">“The money that I make from Seven Sundays allows
+ 																		me to spend more time with my kids and treat them
+ 																		to once in a lifetime experiences.”</div>
+ 				<div class="cd-slides-text3">- Sarah Williams</div>
+ 			  <img src="IMG/OurStory-LongTerm/Testimonial-3.jpg" style="width:100%">
+ 			</div>
+
+ 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  </div> -->
+  <div class="container continerGenric30" align="center">
+ <div class="myCarouselContainer" >
+  <div id="myCarousel" class="carousel" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+   <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+            <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">PASSIVE INCOME</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"The money I make from renting my cottage allows me to spend more time with my kids and treat them to once in a lifetime experiences."</span></div>
+                <div align="right"><span class="CarausalName">-  Sarah Williams</span></div>
+                </div>
+            </div>
+        <img src="IMG/OurStory-ShortTerm/Testimonial-1.jpg" style="width:100%;height:100%" alt="Los Angeles" ">
+      </div>
+
+      <div class="item">
+          <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">EASY VACATIONS</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"So helpful and incredible to work with! They found us the perfect place for our family vacation- everyday felt like a relaxing Sunday!"</span></div>
+                <div align="right"><span class="CarausalName">- Janet Meadows</span></div>
+                </div>
+            </div>
+         <img src="IMG/OurStory-ShortTerm/Testimonial-2.png" style="width:100%;height:100%" alt="Chicago" ;">
+      </div>
+
+      <div class="item">
+             <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">PEACE OF MIND</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"With Cottage Watch I didn't worry once about my home while I was in Florida for the winter, I knew they had everything under control."</span></div>
+                <div align="right"><span class="CarausalName">- John Williams</span></div>
+                </div>
+            </div>
+         <img src="IMG/OurStory-ShortTerm/Testimonial-3.jpg" style="width:100%;height:100%" alt="New york" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+
+      <i class="glyphicon glyphicon-chevron-left fa fa-chevron-left" aria-hidden="true"></i>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+
+      <i class="glyphicon glyphicon-chevron-right fa fa-chevron-right" aria-hidden="true"></i>
+
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+  </div>
+ <div>
+	 	<div class="cd-form-header1">Rent Your Cottage</div>
+	 	<div class="cd-form-header2">Sign up for your free consultation here!</div>
+	<!-- 	<form class="cd-form"> -->
+	 <form action="//frenchbayrealestate.us16.list-manage.com/subscribe/post?u=bfe0db254fa817f19fd5470f2&amp;id=7b8f6bab01" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="cd-form" target="_self" novalidate>
+	  	<div class="col-sm-3" style="float:left">
+	    <label class="cd-from-lable" for="inlineFormInput">NAME</label>
+	    <input type="text" class="cd-from-input" id="inlineFormInput" placeholder="ex. John Smith" name="FNAME" id="mce-FNAME" >
+	  </div>
+	  	<div class="col-sm-3" style="float:left">
+	   <label class="cd-from-lable" for="inlineFormInput">EMAIL</label>
+	    <input type="text" class="cd-from-input" id="inlineFormInput" placeholder="ex. example@gmail.com" name="EMAIL" id="mce-EMAIL">
+	  </div>
+			<div class="col-sm-3" style="float:left">
+	    <label class="cd-from-lable" for="inlineFormInput">  ADDRESS</label>
+	    <input type="text" class="cd-from-input" id="inlineFormInput" placeholder="ex. 514 Dewitt. ST." name="ADDRESS" id="mce-ADDRESS">
+	  </div>
+			<div class="col-sm-3" style="float:left">
+	    <label class="cd-from-lable" for="inlineFormInput"> CITY</label>
+	    <input type="text" class="cd-from-input" id="inlineFormInput" placeholder="ex. Clayton, NY" name="CITY" id="mce-CITY">
+	  </div>
+	  	<br>
+	  	<button type="submit" class="cd-form-submit ">SIGN UP</button>
+		</form>
+ </div>
+ <div class="cd-polaroid-hdr">
+		<img  class="cd-polaroid-left-flag" src="IMG/OurStory-LongTerm/LeftHeaderFlag.svg" alt="flag">
+		<div class="cd-polaroid-header">INFORMATIONALS</div>
+		<img class="cd-polaroid-right-flag" src="IMG/OurStory-LongTerm/RightHeaderFlag.svg" alt="flag">
+ </div>
+ <p class="cd-polaroid-text">To help you better understand all of the moving pieces
+							we help manage, we’ve put together a few resources
+							answering any questions you may have.</p>
+ <section id="photostack" class="photostack">
+	  <div>
+	    <figure>
+                    <a href="FAQ.html?q=engagement"> <img src="IMG/OurStory-LongTerm/ConciergeIllustration.svg" onClick=pageChange( 'FAQ.html?q=marketing', 'Engagement')>
+                    </a>
+                    <!--     <img src="IMG/OurStory-LongTerm/ConciergeIllustration.svg" onClick=pageChange('FAQ.html?q=marketing','Engagement') > -->
+                    <figcaption>
+                        <h2 class="photostack-title">ENGAGEMENT</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=insurance"> <img src="IMG/OurStory-LongTerm/InsuranceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">INSURANCE</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=maintenance"> <img src="IMG/OurStory-LongTerm/MaintenanceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MAINTENANCE</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=pricing"> <img src="IMG/OurStory-LongTerm/PricingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">PRICING</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=storybook"> <img src="IMG/OurStory-LongTerm/StorybookIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">STORY BOOK</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=marketing"> <img src="IMG/OurStory-LongTerm/MarketingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MARKETING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <img style="z-index:1;" src="IMG/OurStory-LongTerm/MarketingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MARKETING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=pricing"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/PricingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">PRICING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=storybook"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/StorybookIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">STORY BOOK</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=insurance"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/InsuranceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">INSURANCE</h2>
+                    </figcaption>
+                </figure>
+	  </div>
+	</section>
+	<a id="myAnchor" name="myAnchor"><strong></strong></a>
+
+ <footer class="container-fluid footer" id "cd-timeline">
+	  <br class="cd-footer-line">
+  	<div class= "col-sm-4 cd-footer-left ">
+    	<a href="/"><img  class= "cd-footer-image" src="IMG/OurStory-LongTerm/CompanyLogo.svg" alt="company logo"></img></a>
+    	<hr class="cd-footer-hr"/>
+    	<div>info@frenchbayrealestate.com</div>
+    	<div>USA: +1 315 243 3181</div>
+			<div>French Bay Real Estate, LLC</div>
+			<div>Jeremy Kellogg: NYS Licensed Real Estate Broker</div>
+  	</div>
+  	<hr class="cd-footer-line" id="cd-footerline-mob">
+  	<div class= "col-sm-4">
+    	<div class="cd-footer-center">
+  <!--    	<a href="OurProcess-LongTerm.html">
+      	<img class ="cd-footer-logo" src="IMG/OurStory-LongTerm/fb-logo.svg" ></img></a>
+      	<a href="OurProcess-LongTerm.html">
+      	<img class ="cd-footer-logo" src="IMG/OurStory-LongTerm/insta-logo.svg"></img></a>
+Enable icons whenever needed
+			-->
+    	</div>
+  	</div>
+  	<hr class="cd-footer-line" id="cd-footerline-mob">
+  	<div class= "col-sm-4 cd-footer-links">
+      	<P><a href="/" class="cd-footer-li">HOME</P>
+      	<P><a href="CottageWatch.html" class="cd-footer-li" >COTTAGE WATCH</P>
+      	<P><a href="OurProcess-LongTerm.html" class="cd-footer-active cd-footer-li">OUR PROCESS</P>
+      	<P><a href="FAQ.html" class="cd-footer-li">INFORMATIONAL</P>
+      	<P><a href="OurStoryPage.html" class="cd-footer-li">OUR STORY</P></a>
+		</div>
+	</footer>
+  <script type="text/javascript" src="JS/OurStory-LongTerm/LongTermprocessscript.js" defer= "defer"></script>
+  <script src="JS/OurStory-LongTerm/jquery.drawsvg.js"></script>
+  <script src="JS/OurStory-LongTerm/classie.js"></script>
+  <script src="JS/OurStory-LongTerm/photostack.js"></script>
+  <script src="JS/PopUps/PopUp.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <script>
+    new Photostack( document.getElementById( 'photostack' ), {
+      callback : function( item ) {
+      }
+    });
+  </script>
+
+	<script>
+			new Photostack(document.getElementById('photostack'), {
+					callback: function(item) {}
+			});
+var modal3 = document.getElementById('myModal2');
+var modal = document.getElementById('myModal');
+			modal.onclick = function(event) {
+					if (event.getAttribute==true) {
+							event.modal3.aria-expanded==false;
+
+					}
+					if (event.target == modal) {
+							modal.style.display = "none";
+
+					}
+			}
+			function closepopupmain() {
+					var modalMain = document.getElementById('myModal2');
+					var span = document.getElementsByClassName("close-sujay")[0];
+					modalMain.style.display = "none";
+
+				}
+
+				function closepopup() {
+					// var modal = document.getElementById('myModal');
+					// var span = document.getElementsByClassName("close-sujay")[0];
+					modal.style.display = "none";
+
+				}
+
+				function homepopup(){
+							var modal = document.getElementById('myModal2');
+						var span = document.getElementsByClassName("close-sujay")[0];
+						console.log("clicked");
+						console.log(modal);
+							modal.style.display = "block";
+				}
+
+				function display()
+					{
+						var modal = document.getElementById('myModal');
+						var span = document.getElementsByClassName("close-sujay")[0];
+						console.log("clicked");
+						console.log(modal);
+							modal.style.display = "block";
+					}
+
+
+	</script>
+	<script>
+	    // $('a').click(function () {
+	    //     $('html, body').animate({
+	    //         scrollTop: $($(this).attr('href')).offset().top
+	    //     }, 500);
+	    //     return false;
+	    // });
+	</script>
+
+	<script>
+	window.onload = function () {
+		$('#myModal').click(function (event) {
+		if($('.modal-content-sujay').find(event.target).length == 1 || event.target.getAttribute("class") === "modal-content-sujay" ){
+			//Do something inside pop up click
+		} else
+		 	$("#myModal").hide();
+	 });
+	};
+</script>
+</body>
+</html>

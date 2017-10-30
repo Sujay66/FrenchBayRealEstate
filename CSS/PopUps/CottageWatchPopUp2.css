@@ -1,0 +1,339 @@
+@font-face {
+    font-family: "SanFranciscoDisplay-Light";
+    src: url("../../FONTS/SanFranciscoDisplay-Light.otf") ;
+}
+
+@font-face {
+    font-family: "SanFranciscoDisplay-Semibold";
+    src: url("../../FONTS/SanFranciscoDisplay-Semibold.otf") ;
+}
+@font-face {
+    font-family: "SanFranciscoDisplay-Regular";
+    src: url("../../FONTS/SanFranciscoDisplay-Regular.otf") ;
+}
+@font-face {
+    font-family: "Optima-Bold";
+    src: url("../../FONTS/Optima-Bold.otf") ;
+}
+/*html{
+  -webkit-tap-highlight-color: white;
+  -webkit-tap-highlight-color: transparent;
+}*/
+
+#submit-subscription:focus{
+  outline: 0;
+}
+input{
+  line-height: normal;
+  font-size: 14px;
+  font-family: SanFranciscoDisplay-Semibold;
+  background-color: #d3d3d3;
+  color:   black;
+}
+.input-pop-up {
+  line-height: 1.2;
+  background-color : #d1d1d1;
+}
+
+.first-color-box {
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+/*Change Starts here*/
+.modal-sujay {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+     z-index: 1100; /*Sit on top */
+    left: 0;
+    font-size: xx-large;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.modal-close {
+    color: #722C36;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 2%;
+    cursor: pointer;
+/*    background-image: url("../../IMG/PopUps/x.svg");*/
+}
+
+/* Modal Content/Box */
+.modal-content-sujay {
+  background-clip: content-box;
+    background-color: white;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 0px;
+    width:50%; /* Could be more or less, depending on screen size */
+    overflow: auto;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.modalTextAreaTextboxFont
+{
+  font-family: "San Francisco Display";
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 12px;
+  background-color: #EBEBEB;
+  border-radius: 0px;
+}
+
+/*Modal Label Class*/
+.labelClass {
+  color: #722C36 ;
+   font-family: "SanFranciscoDisplay-SemiBold";
+   font-size: 13px;
+   font-weight: bold;
+   letter-spacing: .08em;
+   line-height: 12px;
+  float: left;
+}
+
+/*Change ends here*/
+
+
+.modal-header-sujay{
+  /*margin-left: 25% !important;*/
+  color: #525252 !important;
+  font-family:Optima-Bold !important;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.modal-header-sujay > h2{
+  margin-top: 5%;
+  color: #525252;
+  font-family:Optima-Bold;
+  font-size: 30px;
+}
+.modal-header-popup-sujay{
+  color: #525252;
+  font-family:Optima-Bold;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-header-body-text-content-sujay{
+  line-height: 1.3;
+  margin-left: 12%;
+  margin-right: 13%;
+  color: #525252;
+  font-size: 16px;
+  text-align: center;
+  font-family: SanFranciscoDisplay-Regular;
+}
+
+.modal-header-body-text-content-sujay > p{
+margin: 0 0 10px;
+}
+
+.text-below-header{
+  width: 100%;
+}
+
+.modal-header-body-text-content-sujay2{
+  line-height: 1.3;
+  margin-left: 16%;
+  margin-right: 13%;
+  color: #525252;
+  font-size: 16px;
+  font-family: SanFranciscoDisplay-Regular;
+  position: relative;
+}
+
+.modal-header-body-text-content-sujay2 > p{
+margin: 0 0 10px;
+}
+
+.emailbox-sujay{
+  margin-top: 10%;
+}
+
+.modal-content-second-row-sujay{
+  height:50px;
+}
+.modal-content-sr-first-column-sujay{
+  float: left;
+  margin-left: 40px;
+  font-family:SanFranciscoDisplay-Semibold;
+}
+
+.modal-content-sr-second-column-sujay{
+  float: right;
+  font-family:SanFranciscoDisplay-Semibold;
+}
+
+text{
+  font-size: 18px;
+}
+textarea[class="input-pop-up-sujay"]{
+  width: 80%;
+
+}
+input:focus {
+    outline: none;
+}
+#user-email-text-box::-webkit-input-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-email-text-box:-ms-input-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-email-text-box:-moz-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-email-text-box::-moz-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-name-text-box::-webkit-input-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-name-text-box:-ms-input-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-name-text-box:-moz-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+
+#user-name-text-box::-moz-placeholder {
+  font-family: 'SanFranciscoDisplay-Light';
+  color:   black;
+}
+#user-email-text-box{
+  size: 30;
+  margin-right: 10%;
+  color:   black;
+
+}
+#user-email-message-box{
+  width: 95%;
+  line-height: 1;
+  background-color: #d3d3d3;
+}
+button {
+/*    border-radius: 10px;
+    background: #722C36;
+    width: 120px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-family:  SanFranciscoDisplay-Light;
+
+*/
+font-size: 14px;
+background-color: #722C36;
+height: 27px;
+width: 75px;
+padding: 2px 2px 2px 2px;
+margin-top: 5%;
+margin-bottom: 5%;
+color: white!important;
+font-family: "SanFranciscoDisplay-Regular";
+border: none;
+border-radius: 5px;
+
+letter-spacing: 0.1em;
+}
+
+button:focus{
+  outline: 0;
+}
+.modal-content-third-row-sujay{
+  float: left;
+  margin-left: 40px;
+  font-family: SanFranciscoDisplay-Semibold;
+}
+
+
+}
+
+.email-text-sujay{
+  float: left;
+}
+
+.submit-button-popup-sujay{
+
+}
+
+.modal-content-fourth-row-sujay{
+
+  line-height: normal;
+    margin-left: 33%;
+    margin-top: 13%;
+}
+
+text{
+  color: #722C36;
+  font-weight: bold;
+}
+
+
+
+/* The Close Button */
+.close-sujay {
+    color: #722C36;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 1%;
+}
+
+.close-sujay:hover,
+.close-sujay:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.border-box-sujay{
+  border: 2px solid;
+  border-radius: 15px ;
+}
+
+
+@media only screen and (max-width: 900px){
+    #myModal {
+  display: none!important;
+}
+.modal-sujay {
+display: none!important;
+}
+
+}
+
+@media only screen and (max-width: 1400px){
+.space-between-text{
+  display: none;
+}
+
+
+@media only screen and (min-width: 1200px){
+
+.modal-header-body-text-content-sujay>p{
+  margin: 0 10 10 0;
+}
+
+}

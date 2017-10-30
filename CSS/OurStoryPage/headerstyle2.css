@@ -1,0 +1,447 @@
+/*main css for index html*/
+@font-face {
+    font-family: "My Custom Font";
+    src: url(/fonts/SanFranciscoDisplay-Regular.otf) format("truetype");
+}
+body{
+
+  font-family: sans-serif;
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1);
+    z-index: 9999;
+    display: block;
+}
+
+    #preloader .loader {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -30px 0 0 -30px;
+        text-align: center;
+    }
+
+        #preloader .loader .loader-img {
+            background: url("../img/loading.GIF");
+            width: 60px;
+            height: 60px;
+            display: block;
+        }
+
+
+footer{
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: underline;
+}
+
+
+a:active {
+    text-decoration: bold;
+}
+header {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  display: inline-block;
+}
+.cd-header-menu-item
+{
+  float:left;
+  color:black!important ;
+}
+.navbar-inverse {
+  background-color: #FFFFFF;
+  border:none;
+}
+.cd-footer-li{
+  font-size: 13px;
+  padding-bottom: 2px;
+  color : black!important;
+  font-family: sans-serif;
+  letter-spacing: 0.08em;
+}
+  .cd-footer-active{
+  color:black;
+  font-weight: bold;
+}
+@media (min-width: 900px){
+  #cd-footerline-mob{
+    display: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #togglebutton{
+    display: none;
+  }
+  .cd-header-img{
+    height: 80px;
+    width: 240px;
+  }
+  .cd-header-menu-item
+  {
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 168px!important;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 0;
+  letter-spacing: 0.08em;
+  }
+  .cd-herder-ourproc
+  {
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 148px!important;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 0;
+  }
+  .cd-herder-ourst
+  {
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 133px!important;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 0;
+  }
+  .cd-herder-contactus{
+    font-size: 14px!important;
+    padding-left: 6px!important;
+    height: 26px;
+    width: 108px!important;
+    background-color: #722C36!important;
+    color: #FEFEFE!important;
+    border-radius: 7px!important;
+    padding-bottom: 22px;
+    padding-top: 14px!important;
+    margin-right: 15px;
+    font-family: inherit;
+  }
+  .cd-footer-image{
+    height: 55px;
+    width: 230px;
+  }
+  .cd-footer-line{
+    height: 1px;
+    width: 98%;
+    background-color: #808080;
+  }
+  .cd-footer-logo{
+  height:33px;
+  width:40px;
+  }
+  .cd-footer-center{
+  margin-top: 40px;
+  margin-left: 150px;
+  }
+  .cd-footer-hr{
+    margin-left: 0%;
+    height: 0.5px;
+    width:100px;
+    border-style: solid;
+    background-color: #808080;
+    border-color: #808080;
+  }
+
+  .cd-footer-links{
+    width:20%;
+    float: right;
+    border-left: 2px solid #808080;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 768px){
+  #cd-footerline-mob{
+    display: none;
+  }
+  .cd-header-img{
+    height: 70px;
+    width: 200px;
+  }
+  #togglebutton{
+    display: none;
+  }
+  .cd-header-menu-item
+  {
+  margin-top: 5px;
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 138px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  letter-spacing: 0.08em;
+  }
+  .cd-herder-ourproc{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 123px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+    }
+  .cd-herder-ourst{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 108px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  }
+
+  .cd-footer-image{
+    height: 57px;
+    width: 270px;
+  }
+  .cd-herder-contactus{
+    height: 27px;
+    width: 110px;
+    background-color: #722C36!important;
+    color: #FEFEFE!important;
+    border-radius: 7px!important;
+  }
+  .cd-footer-line{
+    height: 1.5px;
+    width: 95%;
+    background-color: #808080;
+  }
+  .cd-footer-logo{
+    height:28px;
+    width:35px;
+  }
+  .cd-footer-center{
+  margin-top: 40px;
+  margin-left: 130px;
+  }
+  .cd-footer-hr{
+    margin-left: 0%;
+    height: 1.5px;
+    width:90px;
+    background-color: #808080;
+  }
+  .cd-footer-links{
+    width:20%;
+    float: right;
+    border-left: 2px solid #808080;
+  }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 400px){
+  .cd-header-img{
+    height: 70px;
+    width: 200px;
+  }
+  .cd-header-togglebutton{
+     margin-top:30px;
+     padding-right: 13px;
+     height:18px;
+     width:38px;
+     float:right;
+  }
+  .cd-header-menu-item
+  {
+  margin-top: 2px;
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 145px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  letter-spacing: 0.08em;
+  }
+  .cd-herder-ourproc{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 125px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+    }
+  .cd-herder-ourst{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 110px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  }
+  .cd-herder-contactus{
+    margin-top: 1px!important;
+    height: 23px;
+    width: 108px;
+    background-color: #722C36!important;
+    color: #FEFEFE!important;
+    border-radius: 7px!important;
+    padding-bottom: 25px;
+    padding-top: 12px!important;
+  }
+  .cd-footer-links{
+    width:100%;
+    list-style: none;
+    border-color: #808080;
+    border-left: none;
+  }
+  .cd-footer-left{
+    width:100%;
+  }
+  .cd-footer-links{
+    margin-left: 6px;
+    width: 95%;
+    list-style: none;
+    border: none;
+  }
+  .cd-footer-logo{
+    height:28px;
+    width:30px;
+  }
+  .cd-footer-center{
+  margin-top: 15px;
+  margin-left: 15px;
+  }
+   .cd-footer-line{
+  height: 2px;
+  width: 95%;
+  background-color: #808080;
+  }
+  .cd-footer{
+  padding: 1% 2.4% 1% 2.4%
+  }
+  .cd-footer-hr{
+   margin-left: 0%;
+   height: 1px;
+   width:85px;
+   background-color: #808080;
+   }
+   .cd-footer-image{
+    height: 50px;
+    width: 280px;
+    margin-left: -25px;
+  }
+}
+@media only screen and (max-width: 400px){
+.cd-header-img{
+    height: 70px;
+    width: 200px;
+  }
+  .cd-header-togglebutton{
+     margin-top:30px;
+     padding-right: 13px;
+     height:18px;
+     width:33px;
+     float:right;
+  }
+  .cd-header-menu-item
+  {
+  margin-top: 2px;
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 140px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  letter-spacing: 0.08em;
+  }
+  .cd-herder-ourproc{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 135px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+    }
+  .cd-herder-ourst{
+  float:left;
+  color:black!important;
+  height: 10px;
+  width: 145px;
+  color: #FEFEFE;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 0;
+  }
+  .cd-herder-contactus{
+  margin-top: 1px!important;
+  height: 23px;
+  width: 108px;
+  background-color: #722C36!important;
+  color: #FEFEFE!important;
+  border-radius: 7px!important;
+  padding-bottom: 25px;
+  padding-top: 12px!important;;
+  }
+  .cd-footer-links{
+  width: 100%;
+  list-style: none;
+  }
+  .cd-footer-left{
+  width:100%;
+  }
+  .cd-leftmenu{
+    text-align: -webkit-center;
+  }
+  .cd-footer-logo{
+    height:28px;
+    width:30px;
+  }
+  .cd-footer-center{
+  margin-top: 15px;
+  margin-left: 15px;
+  }
+  .cd-footer-line{
+  height: 1.5px;
+  width: 95%;
+  background-color: #808080;
+   }
+  .cd-footer-hr{
+ margin-left: 0%;
+ height: 1px;
+ width:85px;
+ background-color: #808080;
+ }
+  .cd-footer-image{
+    height: 40px;
+    width: 260px;
+    margin-left: -40px;
+  }
+
+}

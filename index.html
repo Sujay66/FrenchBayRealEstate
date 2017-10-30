@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="JS/OurStory-ShortTerm/modernizr.min.js"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+
+    <link rel="shortcut icon" href="IMG/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="CSS/OurStory-ShortTerm/component.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="CSS/HomePage/CondensedHomePage.css">
+<link rel="stylesheet" href="CSS/HomePage/home.css">
+    <link href="CSS/PopUps/CottageWatchPopUp.css" rel="stylesheet" type="text/css">
+    <link href="CSS/PopUps/CottageWatchPopUp2.css" rel="stylesheet" type="text/css">
+    <!-- <script src="JS/PopUps/PopUp.js" type="text/javascript"></script> -->
+    <title>French Bay Real Estate</title>
+</head>
+
+
+
+<body onload="checkCookie()" onresize="modalOperation()">
+  <section id="preloader">
+      <div class="loader" id="loader">
+      </div>
+  </section>
+
+  <nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" style="width:50px;height:50px;padding:0px;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="brand"><img src="img/companylogo.svg"class="companylogo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="mt-20 collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-custom valign">
+          <li><a href="cottagewatch.html">COTTAGE WATCH</a></li>
+          <li><a href="OurProcess-ShortTerm.html">OUR PROCESS</a></li>
+          <li><a href="OurStoryPage.html">OUR STORY</a></li>
+          <li><a class= "cd-herder-contactus anchorLink" id="contactUS" href="#myAnchor" id="anchor1" href='javascript:;' onclick='display();'><span>CONTACT&nbsp;US</span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+    <section id="mainModalContainer">
+<section class="modal" id="myModal2">
+    <section class="modal-content">
+
+        <section class="first-color-box">
+                   <span class="modal-close" onclick='closepopupmain();'> &times; </span>
+
+            <div class="container-fluid">
+            <section style="padding-left: 20px;padding-top: 20px">
+            <p class="modal-header-popup h2">
+                COTTAGE WATCH &amp;
+            </p>
+            <p class="h2 modal-header-popup">COTTAGE WATCH PREMIUM</p>
+            </section>
+            </div>
+
+
+
+    <div class="row">
+            <div class="col-xs-12 col-md-12 col-sm-12 col-lg-9">
+                    <ul class="customList">
+                    <li >Active monitoring of cottage interiors and exteriors</li>
+                    <li >Immediate notification when issues are found</li>
+                    <li>Winterization and spring cleaning available</li>
+                    <li>Flexibility in frequency and payment options</li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-12 col-sm-12 col-lg-3">
+                    <img class="modal-content-image" src="IMG/PopUps/cottagewatch.svg" height="70%" width="90%" />
+            </div>
+    </div>
+
+
+    </section>
+    <section  class="col-xs-12 modal-secondSection">
+             <div class="row" style="padding-bottom: 15px"  >
+                <h3 class="off-season-peace-of-mind">Off Season Peace of Mind</h3>
+
+                             <h5 class="signup-text">Signup now to stay protected and updated while resting assured that your </h5>
+                             <h5 class="signup-text"> cottage will be looked after with the same care we give our own.</h5>
+            </div>
+
+<form action="/modalsubmit" class="form-horizontal" method="post" target="_self" novalidate>
+<div class="row" align="center" style="padding-bottom: 20px" >
+            <input id="user-email" placeholder="ex. example@gmail.com" name="EMAIL" size="30">
+            </div>
+            <div class="row" align="center" style="padding-bottom: 20px" >
+
+            <button id="submit-subscription" type="submit"class="notify-me" value="submit" style="width: 100px!important;font-family: SanFranciscoDisplay-Regular; letter-spacing: 0.08em; margin-top: 2%!important";>Notify&nbsp;Me!</button>
+</div>
+</form>
+
+
+    </section>
+
+
+    </section>
+</section>
+</section>
+
+
+    <section id="myModal" class="modal-sujay" >
+        <div align="center" class="modal-content-sujay">
+
+            <span class="modal-close" onclick='closepopup();'>&times;</span>
+
+
+
+            <h2 class="modal-header-sujay">Get In Touch With Us</h2>
+            <div class="text-below-header">
+              <p class="lead">
+                  <p class="modal-header-body-text-content-sujay">A real estate company for the sophisticated owner. Defining new ways to live, earn, and prosper through vacation homeownership.
+                  </p>
+            </div>
+
+
+                <div style="padding: 15px 25px 10px 25px;">
+                    <form action="/ourstory" class="form-horizontal" method="post" target="_self" novalidate>
+                        <div class="form-group">
+                            <div class="col-sm-6">
+                                <label class="labelClass">NAME</label>
+                                <input type="text" class="form-control modalTextAreaTextboxFont" placeholder="ex. John Smith" name="FNAME" id="mce-FNAME">
+                                <input type="hidden" name="product" value="homepage" />
+                                <label class="labelClass" style="padding-top: 14px">EMAIL</label>
+                                <input type="text" class="form-control modalTextAreaTextboxFont" placeholder="ex. example@gmail.com" name="EMAIL" id="mce-EMAIL">
+                            </div>
+                            <div class="col-sm-6">
+                                <label class="labelClass">MESSAGE</label>
+                                <textarea class="form-control modalTextAreaTextboxFont" rows="8" style="resize: none" id="TextArea" name="MESSAGE" id="mce-MESSAGE"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12" align="center">
+                                <button type="submit" style="margin-top: 5%; margin-bottom: 0%">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+        </div>
+    </section>
+    <!-- <div class="cd-middle-banner container row">
+    <section  >
+       <img class= "cd-banner" src="IMG/OurStory-ShortTerm/banner.svg" alt="banner">
+        <p class ="cd-image-txt1">Short Term Rental</p>
+        <p class ="cd-image-txt2"><a href="OurProcess-ShortTerm.html" class="cd-banner-link">LONG TERM RENTAL</a></p>
+    </section>
+  </div> -->
+
+    <div class="container containerImage">
+
+            <div  class="carousel" >
+
+    <div class="carousel-inner thumbnail" style="overflow:visible" >
+
+      <div class="item active" align="center">
+        <img src="IMG/HomePage/HomepageAssets/homePage.svg"  alt="" class="img-responsive cd-banner">
+        <div class="carousel-caption captionClass">
+
+          <p class="cd-image-txt2">A real estate company for the sophisticated owner. Defining new ways to live, earn, and prosper through vacation homeownership.
+                <br>
+                <br><a href="OurProcess-ShortTerm.html"><span class="our-process">OUR PROCESS</span></a>
+            </p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+    </div>
+
+    </div>
+
+    <div class="container serviceContinerMargin">
+        <div class="customContainer" align="center">
+            <div class="row">
+                <div class="col-xs-12" align="center">
+                    <p class="servceClassHeader">Services&nbsp;That&nbsp;Makes&nbsp;Renting&nbsp;Easy</p>
+                    <p class="serviceTextHeader">Vacation home rentals have never been more profitable than today,
+but the process has never been more complex. We’re here to help maximize your
+passive income through our diverse vacation rental management services.</p>
+                    <hr class="borderBelowText" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/Photography.svg">
+                    <br>
+                    <span class="serviceImagesAllCommonCSS">PHOTOGRAPHY</span>
+                    <!--<hr class="shape-6"/>-->
+                    <p class="servietext">A picture speaks a thousand words and we guarantee that our photography services will produce a novel about your property. Inside and outside, we help guests visualize their stay in your beautiful location.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/Booking.svg">
+
+                    <span class="serviceImagesAllCommonCSS"><br>BOOKING MANAGEMENT</span>
+                    <!--<hr class="shape-bm"/>-->
+                    <p class="servietext">From calendar coordination to inquiry management to income disbursement, we handle it all so that your property gets quickly and seamlessly rented while you relax in style and earn passive income.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/welcome_gift.svg">
+
+                    <span class="serviceImagesAllCommonCSS"><br>WELCOME GIFT</span>
+                    <!--<hr class="shape-wg">-->
+                    <p class="servietext">Guests will never arrive to a cold, unfamiliar rental because we make sure to to say "Hello, welcome" with a custom tailored gift basket containing vacation essentials- is that a cork popping?</p>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/concierge.svg">
+                    <br>
+                    <span class="serviceImagesAllCommonCSS">GUEST CONCIERGE</span>
+                    <!--<hr class="shape-6"/>-->
+                    <p class="servietext">We delight guests with "passionate support" from reservation to review by providing real-time customer support, tourism inquiries, and human contact day or night, ensuring a great stay. </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/chores.svg">
+
+                    <span class="serviceImagesAllCommonCSS"><br>LIGHT CHORES</span>
+                    <!--<hr class="shape-bm"/>-->
+                    <p class="servietext">It's not an Everyday Sunday if you're having to mow the lawn or shovel the driveway, that's why we do it for you; all in preparation of welcoming guests before stepping foot in the door.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 serviceContainerClass" align="center">
+                    <img class="imageSize" src="IMG/HomePage/HomepageAssets/cleaning.svg">
+
+                    <span class="serviceImagesAllCommonCSS"><br>CLEANING SERVICE</span>
+                    <!--<hr class="shape-wg">-->
+                    <p class="servietext">Your property will shine when we're done with our top to bottom cleaning and restocking of linens, towels, toiletries, and welcome gifts; and it's done quickly for those profitable same day turnarounds.</p>
+                </div>
+
+
+
+
+            </div>
+            <!-- row div ends here -->
+        </div>
+        <!-- container ends here -->
+    </div>
+    <!-- center div ends here  -->
+
+    <div class="container">
+        <div class="formOuterDiv" align="center">
+              <form>
+                <fieldset class="scheduler-border">
+
+                     <legend class="scheduler-border rentHeaderText" align="center">&nbsp;Rent&nbsp;Your&nbsp;Cottage&nbsp;</legend>
+                                         <br>
+                     <span class="textRent">Short term or long term, we have the expertise to make renting profitable.<span>
+
+                      <div align="center" class="alignmentDiv" >
+                            <div class="row RentContinerDiv" align="center">
+                               <!--  <div class="dynamicDivStyle"> -->
+
+                                                    <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6 Rent-box Rent-box1 rentalHeader1" align="left">
+                                                            <h5 class="rentalHeader">SHORT TERM RENTAL</h5>
+                                                             <p class="daysText">1-29 DAYS</p>
+                                                            <hr class=" lineBreaker lineBreaker1" align="left" />
+                                                             <span class="rentParaText" ><br>Squeeze in nightly or week long rentals at your cottage with our short term rental services. Choose between renting the entire property or only that spare bedroom which hasn't been used in years; even better, be unique by renting your boat or RV.</span>
+                                                              <div class="row pointsAlignment" align="left" style="padding-top: 15px">
+                                                                        <div class="col-lg-6 col-md-6 col-sm-12 customAlignClass col-xs-12  ">
+                                                                            <ul class="dashed squareType">
+                                                                                <li>Rental Flexibility</li>
+                                                                                <li style="padding-top: 10px;">Furnished Spaces</li>
+                                                                            </ul>
+                                                                        </div>
+
+                                                                        <div class="col-lg-6  col-md-6 col-sm-12  col-xs-12  customAlignClass2 ">
+                                                                            <ul class="dashed squareType ">
+                                                                                <li>Holiday Pricing</li>
+                                                                                <li style="padding-top: 10px;">Larger Profits</li>
+                                                                            </ul>
+                                                                        </div>
+
+                                                              </div>
+                                                              <!-- list div -->
+                                                              <div class=ButtonITbegins"">
+                                                              <a href="OurProcess-ShortTerm.html"><img class="Img_it-begins-here" src="IMG/HomePage/HomepageAssets/Begins_Here_Red.svg"></a>
+                                                              </div>
+                                                     </div>
+                                                    <!-- rent box 1   -->
+
+                                                   <!--  <div class="col-sm-2 col-md-2 col-lg-2 visible-sm visible-lg visible-md" style="background-color: blue; width:50px; height:40px"></div> -->
+
+                                                    <div class="col-xs-12 col-sm-offset-2 col-sm-5 col-md-6 col-lg-6 Rent-box Rent-box2 rentalHeader2 customRentBox2" align="left">
+                                                            <h5 class="rentalHeader">LONG TERM RENTAL</h5>
+                                                            <p class="daysText">30+ DAYS</p>
+                                                            <hr class="lineBreaker lineBreaker2" align="left" />
+                                                             <span class="rentParaText"><br>Out of town for a month or longer and looking to diversify your income portfolio? Long term property rental is a great way to earn a steady stream of modest income on a temporary or annual basis as you seek to achieve the Everyday Sunday.</span>
+                                                             <div class="row pointsAlignment" style="padding-top: 15px">
+                                                                    <div class="col-lg-6 col-md-6 col-sm-12 customAlignClass col-xs-12 ">
+
+                                                                        <ul class="dashed squareType">
+                                                                            <li>Consistent Income</li>
+                                                                            <li style="padding-top: 10px;">Local Compliance</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <div class="col-lg-6 col-md-6 col-sm-12  col-xs-12  customAlignClass2">
+
+                                                                        <ul class="dashed squareType">
+                                                                            <li>Lower Vacancy</li>
+                                                                            <li style="padding-top: 10px;">Tenant Screening</li>
+                                                                        </ul>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class=ButtonITbegins"">
+                                                                    <a href="OurProcess-LongTerm.html"><img class="Img_it-begins-here"  src="IMG/HomePage/HomepageAssets/IT_BEGINS_HERE_White.svg">
+                                                                    </a>
+                                                                </div>
+
+                                                    </div>
+
+                                                    <!-- rent box 2 -->
+
+
+
+                                <!-- </div> -->
+                            </div>
+
+                            <!-- RentContinerDiv end  -->
+                      </div>
+                      <!-- alignment div -->
+
+                </fieldset>
+              </form>
+        </div>
+        <!-- form div -->
+    </div>
+    <!-- conatiner ends -->
+
+
+
+<div class="container continerGenric30" align="center">
+ <div class="myCarouselContainer" >
+  <div id="myCarousel" class="carousel" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+            <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">PASSIVE INCOME</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"The money I make from renting my cottage allows me to spend more time with my kids and treat them to once in a lifetime experiences."</span></div>
+                <div align="right"><span class="CarausalName">-  Sarah Williams</span></div>
+                </div>
+            </div>
+        <img src="IMG/OurStory-ShortTerm/Testimonial-1.jpg" style="width:100%;height:100%" alt="Los Angeles">
+      </div>
+
+      <div class="item">
+          <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">EASY VACATIONS</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"So helpful and incredible to work with! They found us the perfect place for our family vacation- everyday felt like a relaxing Sunday!"</span></div>
+                <div align="right"><span class="CarausalName">- Janet Meadows</span></div>
+                </div>
+            </div>
+         <img src="IMG/OurStory-ShortTerm/Testimonial-2.png" style="width:100%;height:100%" alt="Chicago">
+      </div>
+
+      <div class="item">
+             <div class="carousel-caption">
+                <div class="divCarouselText">
+                <div align="left"><span class="carousalHeader hrStyle">PEACE OF MIND</span></div>
+                <div align="left" style="margin-top:10px"><span class="CarousalComment">"With Cottage Watch I didn't worry once about my home while I was in Florida for the winter, I knew they had everything under control."</span></div>
+                <div align="right"><span class="CarausalName">- John Williams</span></div>
+                </div>
+            </div>
+         <img src="IMG/OurStory-ShortTerm/Testimonial-3.jpg" style="width:100%;height:100%" alt="New york" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+
+      <i class="glyphicon glyphicon-chevron-left fa fa-chevron-left" aria-hidden="true"></i>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+
+      <i class="glyphicon glyphicon-chevron-right fa fa-chevron-right" aria-hidden="true"></i>
+
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+    <div class="container"  align="center">
+      <h3 class="off-season-peaceClass">Off&nbsp;Season&nbsp;Peace&nbsp;Of&nbsp;Mind</h3>
+      <br>
+      <hr class="borderBelowText" />
+      <br>
+
+      <div align="center" class="OffalignmentDiv" >
+                            <div class="row" align="center">
+                                <div class="col-xs-12 col-md-5 col-sm-6 col-lg-6 Offbox OffMarginBottom " align="center">
+                                          <img class="offImges" src="IMG/HomePage/HomepageAssets/Cottage_Watch_left.jpg">
+                                          <p class="cottage-text-Header">COTTAGE WATCH</p>
+                                         <p class="offParaText">We’re here for you when the seasons change and storms hit because nobody wants to worry about their cottage in the off season. We promise to keep watch day and night while you’re gone.</p>
+                                          <div>
+                                                    <a href="CottageWatch.html"><img class="OfflearnMore" src="IMG/HomePage/HomepageAssets/LEARN_MORE_button.svg">
+                                                    </a>
+                                          </div>
+                                </div>
+
+                                <div class="col-xs-12 col-md-offset-2 col-md-5 col-sm-6 col-lg-6 Offbox" align="center">
+                                          <img class="offImges" src="IMG/HomePage/HomepageAssets/Cottage_Watch_right.jpg">
+                                          <p class="cottage-text-Header">COTTAGE WATCH PREMIUM</p>
+                                          <p class="offParaText">From closing your cottage to opening your cottage and the moments in between, we’re here to make sure everything is tip-top before and after your arrival for vacation season with monitoring and cleaning.</p>
+                                          <div>
+                                              <a href="CottageWatch.html"><img class="OfflearnMore" src="IMG/HomePage/HomepageAssets/LEARN_MORE_button.svg"></a>
+                                          </div>
+
+                                </div>
+
+
+                            </div>
+                             <!-- <hr class="LongBorderBelowText" /> -->
+      </div>
+
+
+
+    </div>
+
+    <!-- <div class="container continerGenric20" align="center" >
+        <div > <span class="rentHeaderText">Rent Your Cottage </span ></div>
+        <div ><span class="textRent">Sign up for your free consultation here!</span></div>
+         <form class="form-inline continerGenric20">
+             <div align="center">
+
+                            <div class="form-group">
+                               <div align="left" class="formGroupDiv formGroupDivStart">
+                               <label class="formLabel" for="inlineFormInput">NAME</label>
+                              <input type="text" class="form-control formTextbox" id="inlineFormInput" placeholder="ex. John Smith">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                                <div align="left" class="formGroupDiv formGroupDivStart">
+                                   <label class="formLabel" for="inlineFormInput">EMAIL</label>
+                                  <input type="text" class=" form-control formTextbox" id="inlineFormInput" placeholder="ex. example@gmail.com">
+                                </div>
+                                </div>
+                            <div class="form-group">
+                            <div align="left" class="formGroupDiv formGroupDivStart">
+                               <label class="formLabel" for="inlineFormInput">  ADDRESS</label>
+                              <input type="text" class=" form-control formTextbox" id="inlineFormInput" placeholder="ex. 514 Dewitt. ST.">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                            <div align="left" class="formGroupDiv formGroupDivStart">
+                               <label class="formLabel" for="inlineFormInput"> CITY</label>
+                              <input type="text" class=" form-control formTextbox" id="inlineFormInput" placeholder="ex. Clayton, NY">
+                              </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-default formSubmitBtn ">SIGN UP</button>
+
+
+
+
+
+
+
+             </div>
+
+
+
+         </form>
+
+
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+        <!-- /slideshowstart -->
+
+        <div class="container continerGenric30" align="center">
+        <div class="hdHeader" >
+
+            <img class="cd-polaroid-left-flag" src="IMG/OurStory-ShortTerm/LeftHeaderFlag.svg" alt="flag">
+            <div class="cd-polaroid-header">INFORMATIONALS</div>
+            <img class="cd-polaroid-right-flag" src="IMG/OurStory-ShortTerm/RightHeaderFlag.svg" alt="flag">
+        </div>
+        <p class="cdpolaroidtext cdwidth continerGenric20">To help you better understand all of the moving pieces we help manage,
+             we’ve put together a few resources answering any questions you may have.</p>
+        </div>
+        <section id="photostack" class="photostack">
+
+            <div>
+
+                <figure>
+                    <a href="FAQ.html?q=engagement"> <img src="IMG/OurStory-LongTerm/ConciergeIllustration.svg" onClick=pageChange( 'FAQ.html?q=marketing', 'Engagement')>
+                    </a>
+                    <!--     <img src="IMG/OurStory-LongTerm/ConciergeIllustration.svg" onClick=pageChange('FAQ.html?q=marketing','Engagement') > -->
+                    <figcaption>
+                        <h2 class="photostack-title">ENGAGEMENT</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=insurance"> <img src="IMG/OurStory-LongTerm/InsuranceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">INSURANCE</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=maintenance"> <img src="IMG/OurStory-LongTerm/MaintenanceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MAINTENANCE</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=pricing"> <img src="IMG/OurStory-LongTerm/PricingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">PRICING</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=storybook"> <img src="IMG/OurStory-LongTerm/StorybookIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">STORY BOOK</h2>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <a href="FAQ.html?q=marketing"> <img src="IMG/OurStory-LongTerm/MarketingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MARKETING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <img style="z-index:1;" src="IMG/OurStory-LongTerm/MarketingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">MARKETING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=pricing"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/PricingIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">PRICING</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=storybook"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/StorybookIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">STORY BOOK</h2>
+                    </figcaption>
+                </figure>
+                <figure data-dummy>
+                    <a href="FAQ.html?q=insurance"> <img style="z-index:1;" src="IMG/OurStory-LongTerm/InsuranceIllustration.svg"> </a>
+                    <figcaption>
+                        <h2 class="photostack-title">INSURANCE</h2>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <a id="myAnchor" name="myAnchor"><strong></strong></a>
+
+        <footer class="container-fluid footer" id "cd-timeline">
+            <br class="cd-footer-line">
+            <div class="col-sm-4 cd-footer-left">
+                <a href="OurProcess-ShortTerm.html"><img class="cd-footer-image" src="IMG/OurStory-ShortTerm/CompanyLogo.svg" alt="company logo"></img>
+                </a>
+                <hr class="cd-footer-hr" />
+                <div>info@frenchbayrealestate.com</div>
+                <div>USA: +1 315 243 3181</div>
+                <div>French Bay Real Estate, LLC</div>
+                <div>Jeremy Kellogg: NYS Licensed Real Estate Broker</div>
+            </div>
+            <hr class="cd-footer-line" id="cd-footerline-mob">
+            <div class="col-sm-4">
+                <div class="cd-footer-center">
+            <!--        <a href="OurProcess-ShortTerm.html">
+                        <img class="cd-footer-logo" src="IMG/OurStory-ShortTerm/fb-logo.svg"></img>
+                    </a>
+                    <a href="OurProcess-ShortTerm.html">
+                        <img class="cd-footer-logo" src="IMG/OurStory-ShortTerm/insta-logo.svg"></img>
+                    </a>
+Enable icons whenever needed
+                  -->
+                </div>
+            </div>
+            <hr class="cd-footer-line" id="cd-footerline-mob">
+            <div class="col-sm-4 cd-footer-links mt-10">
+                <P><a href="/" class="cd-footer-li">HOME</a>
+                </P>
+                <P><a href="CottageWatch.html" class="cd-footer-li">COTTAGE WATCH</a>
+                </P>
+                <P><a href="OurProcess-ShortTerm.html" class="cd-footer-li">OUR PROCESS</a>
+                </P>
+                <P><a href="FAQ.html?q=marketing" class="cd-footer-active cd-footer-li">INFORMATIONAL</a>
+                </P>
+                <P><a href="OurStoryPage.html" class="cd-footer-li">OUR STORY</a>
+                </P>
+            </div>
+        </footer>
+        <script type="text/javascript" src="JS/HomePage/script.js" defer="defer"></script>
+
+        <script src="JS/OurStory-ShortTerm/classie.js"></script>
+        <script src="JS/OurStory-ShortTerm/photostack.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>
+
+var modal4 = document.getElementsByClassName('navbar-toggle');
+console.log(modal4);
+modal4.onclick = function(event) {
+  console.log("inside navbar click")
+    if (event.getAttribute("aria-expanded") == true) {
+        console.log("inside true block")
+        event.getAttribute("aria-expanded") = false;
+      }
+};
+</script>
+
+        <script>
+            new Photostack(document.getElementById('photostack'), {
+                callback: function(item) {}
+            });
+var modal3 = document.getElementById('myModal2');
+var modal = document.getElementById('myModal');
+            modal.onclick = function(event) {
+                if (event.getAttribute==true) {
+                    event.modal3.aria-expanded==false;
+
+                }
+                if (event.target == modal) {
+                    modal.style.display = "none";
+
+                }
+            }
+            function closepopupmain() {
+                var modalMain = document.getElementById('myModal2');
+                var span = document.getElementsByClassName("close-sujay")[0];
+                modalMain.style.display = "none";
+
+              }
+
+              function closepopup() {
+                // var modal = document.getElementById('myModal');
+                // var span = document.getElementsByClassName("close-sujay")[0];
+                modal.style.display = "none";
+
+              }
+
+              function homepopup(){
+                    var modal = document.getElementById('myModal2');
+                  var span = document.getElementsByClassName("close-sujay")[0];
+                  console.log("clicked");
+                  console.log(modal);
+                    modal.style.display = "block";
+              }
+
+              function display()
+                {
+                  var modal = document.getElementById('myModal');
+                  var span = document.getElementsByClassName("close-sujay")[0];
+                  console.log("clicked");
+                  console.log(modal);
+                    modal.style.display = "block";
+                }
+
+
+        </script>
+        <script>
+            // $('a').click(function () {
+            //     // $('html, body').animate({
+            //     //     scrollTop: $($(this).attr('href')).offset().top
+            //     // }, 500);
+            //     // return false;
+            // });
+        </script>
+</body>
+
+</html>

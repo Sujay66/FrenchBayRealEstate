@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="JS/FAQPage/script.js"></script>
+	<script type="text/javascript" src="JS/PopUps/PopUp.js"></script>
+	<script src="js/theme.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- <script src="JS/PopUps/PopUp.js" type="text/javascript"></script> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="CSS/header.css">
+
+	<link rel="shortcut icon" href="IMG/favicon.ico"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/FAQPage/faqstyle.css">
+	<link href="CSS/PopUps/CottageWatchPopUp2.css" rel="stylesheet" type="text/css">
+	<title>Informational</title>
+</head>
+<body onresize="modalOperation()">
+
+
+
+	<nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+
+
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" style="width:50px;height:50px;padding:0px;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="brand"><img src="img/companylogo.svg"class="companylogo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="mt-20 collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-custom valign">
+          <li><a href="cottagewatch.html">COTTAGE WATCH</a></li>
+          <li><a href="OurProcess-ShortTerm.html">OUR PROCESS</a></li>
+          <li><a href="OurStoryPage.html">OUR STORY</a></li>
+					<li><a class= "cd-herder-contactus anchorLink" id="contactUS" href="#myAnchor" id="anchor1" href='javascript:;' onclick='display();'><span>CONTACT&nbsp;US</span></a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+	<section id="myModal" class="modal-sujay">
+  <div align="center" class="modal-content-sujay" >
+
+    <span class="modal-close" onclick='closepopup();'>&times;</span>
+
+
+
+    <h2  class="modal-header-sujay">Get In Touch With Us</h2>
+		<div class="text-below-header">
+			<p class="lead">
+					<p class="modal-header-body-text-content-sujay">A real estate company for the sophisticated owner. Defining new ways to live, earn, and prosper through vacation homeownership.
+					</p>
+		</div>
+
+
+      <div style="padding: 15px 25px 10px 25px;">
+    <!--   <form role="form" class="form-horizontal"> -->
+					<form action="/ourstory" class="form-horizontal" method="post" target="_self" novalidate>
+          <div class="form-group">
+            <div class="col-sm-6">
+              <label class="labelClass">NAME</label>
+              <input  type="text" class="form-control modalTextAreaTextboxFont" placeholder="ex. John Smith">
+
+                    <label class="labelClass" style="padding-top: 14px">EMAIL</label>
+                    <input type="text"  class="form-control modalTextAreaTextboxFont"  placeholder="ex. example@gmail.com">
+                    </div>
+                    <div class="col-sm-6">
+                      <label class="labelClass">MESSAGE</label>
+                      <textarea  class="form-control modalTextAreaTextboxFont" rows="7" style="resize: none" id="TextArea"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-sm-12" align="center">
+                      <button type="submit" style="margin-top: 5%; margin-bottom: 0%">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </section>
+
+
+  <div class="cd-middle-banner container row">
+    <section  >
+  	   <img class= "cd-banner" src="IMG/FAQPage/banner.svg" alt="banner">
+      	<p class ="cd-image-text mt-70">To help you better understand all of the moving pieces we help manage, we’ve put together a few resources answering any questions you may have.</p>
+    </section>
+  </div>
+  <div class="container-fluid text-left container">
+   	<div class="content cd-leftmenu">
+    		<div class = "col-sm-1 row">
+    		</div>
+      	<div class="col-sm-2 cd-faq cd-faq-categories " id="center-content-margin" >
+          <br id="cd-mob-leftmenu">
+      		<br id="cd-mob-leftmenu">
+      		  <p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'marketingContent', 'marketing','1')" id ="marketing">MARKETING</p>
+        		<p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'maintenanceContent','maintenance','1')" id="maintenance">MAINTENANCE</p>
+        		<p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'engagementContent','engagement' ,'1')" id="engagement">ENGAGEMENT</p>
+       		  <p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'insuranceContent','insurance', '1')" id="insurance">INSURANCE</p>
+        		<p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'pricingContent','pricing' ,'1')" id="pricing">PRICING</p>
+        		<p class= "cd-faq-leftmenu tablinks" onclick="openPage(this, event, 'storybookContent','storybook', '1')" id="storybook" >STORYBOOK</p>
+      	</div>
+      	<div class="col-sm-9 text-left  tabContent" id = "marketingContent">
+        	<h3 class = "cd-content-header">Marketing</h3>
+       	   <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+      	</div>
+        <div class="col-sm-9 text-left  tabContent" id = "maintenanceContent">
+          <h3 class = "cd-content-header">Maintenance</h3>
+           <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+        </div>
+        <div class="col-sm-9 text-left  tabContent" id = "engagementContent">
+          <h3 class = "cd-content-header">Engagement</h3>
+           <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+        </div>
+        <div class="col-sm-9 text-left  tabContent" id = "insuranceContent">
+          <h3 class = "cd-content-header">Insurance</h3>
+           <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+        </div>
+        <div class="col-sm-9 text-left  tabContent" id = "pricingContent">
+          <h3 class = "cd-content-header">Pricing</h3>
+           <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+        </div>
+        <div class="col-sm-9 text-left  tabContent" id = "storybookContent">
+          <h3 class = "cd-content-header">Storybook</h3>
+           <p class="cd-content">We're putting the final touches on these comprehensive home guides, so make sure to check back soon!</p>
+
+        </div>
+    </div>
+  </div>
+	<a id="myAnchor" name="myAnchor"><strong></strong></a>
+
+  <footer class="container-fluid footer">
+    <hr class="cd-footer-line">
+      <div class= "col-sm-4 cd-footer-left">
+        <a href="/"><img  class= "cd-footer-image" src="IMG/FAQPage/CompanyLogo.svg" alt="company logo"></img></a>
+        <hr class="cd-footer-hr"/>
+        <div>info@frenchbayrealestate.com</div>
+        <div>USA: +1 315 243 3181</div>
+				<div>French Bay Real Estate, LLC</div>
+				<div>Jeremy Kellogg: NYS Licensed Real Estate Broker</div>
+      </div>
+      <hr class="cd-footer-line" id="cd-footerline-mob">
+      <div class= "col-sm-4">
+        <div class="cd-footer-center">
+    <!--      <a href="FAQ.html">
+          <img class ="cd-footer-logo" src="IMG/FAQPage/fb-logo.svg" ></img></a>
+          <a href="FAQ.html">
+          <img class ="cd-footer-logo" src="IMG/FAQPage/insta-logo.svg"></img></a>
+Enable icons whenever needed
+				-->
+        </div>
+      </div>
+      <hr class="cd-footer-line" id="cd-footerline-mob">
+      <div class= "col-sm-4 cd-footer-links mt-10">
+				<P><a href="/" class="cd-footer-li">HOME</a></P>
+				<P><a href="CottageWatch.html" class="cd-footer-li" >COTTAGE WATCH</a></P>
+				<P><a href="OurProcess-ShortTerm.html" class="cd-footer-li">OUR PROCESS</a></P>
+				<P><a href="FAQ.html" class="cd-footer-active cd-footer-li">INFORMATIONAL</a></P>
+				<P><a href="OurStoryPage.html" class="cd-footer-li">OUR STORY</a></P>
+    </footer>
+		<script>
+		    // $('a').click(function () {
+		    //     $('html, body').animate({
+		    //         scrollTop: $($(this).attr('href')).offset().top
+		    //     }, 500);
+		    //     return false;
+		    // });
+		</script>
+		<script>
+		window.onload = function () {
+			$('#myModal').click(function (event) {
+			if($('.modal-content-sujay').find(event.target).length == 1 || event.target.getAttribute("class") === "modal-content-sujay" ){
+				//Do something inside pop up click
+			} else
+				$("#myModal").hide();
+		 });
+		};
+			</script>
+
+</body>
+</html>

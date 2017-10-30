@@ -1,0 +1,1955 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*overflow-x: hidden;*/ 
+}
+
+.item.active
+{
+    transform: none !important;
+}
+.Rent-box1 {
+    background-color: #E1E1E1;
+}
+.Rent-box2 {
+    background-color: #722C36;
+}
+.rentalHeader1 {
+    color: #722C36;
+}
+.rentalHeader2 {
+    color: #FFFDFD;
+}
+.col-sm-offset-2 {
+    margin-left: 0% !important;
+    /* <- your value here */
+}
+.col-md-offset-2 {
+    margin-left: 0% !important;
+    /* <- your value here */
+}
+ul {
+    margin: 0;
+}
+ul.dashed {
+    list-style-type: none;
+}
+ul.dashed > li {
+    text-indent: -5px;
+}
+ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+.lineBreaker1 {
+    height: 1px;
+    background-color: #722C36;
+}
+.lineBreaker2 {
+    height: 1px;
+    background-color: #FFFDFD;
+}
+.borderBelowText {
+    height: 1px !important;
+    width: 81px;
+    /*border: 1px solid #464646 !important;*/
+
+    background-color: #464646;
+}
+
+
+.containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 5px;
+}
+.serviceContinerMargin
+{
+    margin-top: -50px;
+}
+
+.cd-image-txt2 {
+    cursor: pointer;
+    position: absolute;
+    color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+
+}
+.our-process {
+    color: #3B312F;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1.0px solid #3B312F;
+}
+/* section2 service section */
+
+.servceClassHeader {
+    color: #414042;
+    font-family: "Optima";
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+/* section3 service text section */
+
+.serviceTextHeader {
+    color: #3B3B3B;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    width: 87%
+}
+/*Section 4 All services like Photography, Cleaning ectc*/
+
+.imageSize {
+    height: 100px;
+    width: 100px;
+}
+.serviceImagesAllCommonCSS {
+    height: 0.34%;
+    width: 13.63%;
+    color: #722C36;
+    font-family: "SanFranciscoDisplay-Bold";
+    font-size: 16px;
+    letter-spacing: .08em;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #722C36;
+}
+.servietext {
+    height: 113px;
+    width: 310px;
+    color: #3B3B3B;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "SanFranciscoDisplay-Regular"
+}
+.serviceContainerClass {
+    padding-bottom: 20px
+}
+.Rent-box {
+    height: 470px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.RentContinerDiv {
+    margin: 3.5% 0% 0% 7%;
+}
+.formOuterDiv {
+    padding-top: 40px;
+}
+/*Rent Header starts*/
+
+legend.scheduler-border {
+    width: auto;
+    /* Or auto */
+
+    padding: 0 0px;
+    /* To give a bit of padding on the left and right */
+
+    border-bottom: none;
+    margin-bottom: -8px !important;
+}
+fieldset.scheduler-border {
+    border: 0px groove #ddd !important;
+    padding: 0 0 0 0 !important;
+    margin: 0 0 0 0 !important;
+}
+.rentHeaderText {
+    color: #3B312F;
+    /*font-family: "Optima";*/
+
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+}
+.textRent {
+    width: 100%;
+    color: #525252;
+    font-family: "SanFranciscoDisplay-Regular";
+     font-size: 17px;
+    line-height: 0;
+    text-align: center;
+    padding-top: 15px
+}
+/*Rent Header ends*/
+/*Short term long term rent section */
+.sliderOuterDiv
+{
+    display: table-row;
+}
+.alignmentDiv {
+    padding-top: 10px;
+    padding-bottom: 30px
+}
+.rentalHeader {
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-top: 20px
+}
+.daysText {
+    font-family: "SanFranciscoDisplay-Bold";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 0;
+    padding-top: 20px;
+    text-align: left;
+}
+.rentParaText {
+    width: 341px;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+}
+.lineBreaker {
+    width: 97%;
+    margin-bottom: 0px !important;
+}
+ul.squareType {
+    /*list-style-type: square;*/
+
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.customAlignClass {
+    /*width: 100% !important;*/
+
+    padding: 0% !important;
+    margin-left: -7% !important;
+    margin-right: 0% !important
+}
+.ButtonITbegins {
+    margin-top: 25px;
+    margin-left: -7px
+}
+.Img_it-begins-here {
+    /*height: 0.41%;*/
+
+    width: 50%;
+    color: #722C36;
+    font-family: "SanFranciscoDisplay";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0;
+    margin-top: 10%;
+    /* margin-left: 4%;*/
+}
+.customRentBox2 {
+    margin-top: 50px;
+}
+.customAlignClass2 {
+    /*margin-left: -10% !important;*/
+    /*width: 100% !important;*/
+
+    padding: 0% !important;
+    margin-left: -7% !important;
+    margin-right: 0% !important
+}
+.customContainer {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.columnDiv {
+    align-content: center;
+}
+/*Short term long term rent section ends*/
+/*off section start*/
+
+.off-season-peaceClass {
+    height: 0.64%;
+    color: #414042;
+    font-family: Optima;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+    margin-top: 6%;
+}
+.Offbox {
+    height: 365px;
+    width: 100%;
+}
+.OffMarginBottom {
+    margin-bottom: 30px;
+}
+.offImges {
+         width: 75%;
+   height: 42%;
+    }
+.cottage-text-Header {
+    color: #333333;
+    font-family: "SanFranciscoDisplay-SemiBold";
+    font-size: 19px;
+    letter-spacing: .08em;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0%;
+}
+.offParaText {
+    color: #333333;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 0%;
+}
+.OfflearnMore {
+    width: 40%;
+    font-family: "SanFranciscoDisplay";
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0;
+    text-align: center;
+    margin-left: 0%;
+}
+.LongBorderBelowText {
+    height: 1px !important;
+    width: 90%;
+    /*border: 1px solid #464646 !important;*/
+
+    background-color: #464646;
+    margin-top: 40px;
+}
+/*off sectionends*/
+/*carousel starts */
+
+.myCarouselContainer {
+    width: 100%;
+}
+.carousel .item {
+    height: 200px;
+}
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 200px;
+}
+.divCarouselText {
+    /* margin-bottom: 20%;
+    margin-left: -10%;*/
+
+    margin-bottom: 2%;
+    margin-left: 18%;
+    width: 70%;
+}
+.carousalHeader {
+    color: #FFFFFF;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 0;
+    padding-bottom: 3px;
+    text-align: center;
+}
+.hrStyle {
+    border-bottom: 1px solid #FFFFFF;
+}
+.CarousalComment {
+    color: #FFFFFF;
+    font-family: "Myriad Pro";
+    font-size: 13px;
+}
+.CarausalName {
+    color: #FFFFFF;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    text-align: right;
+}
+/*carousel ends*/
+/*form starts*/
+
+.formLabel {
+    color: #722C36;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left
+}
+.formTextbox {
+    color: #040404;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    margin-right: 0%;
+    width: 230px;
+    border-style: none none solid none;
+    border-width: 0.7px;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -o-transition: color 0 ease-in !important;
+    transition: none !important;
+    -webkit-box-shadow: none !important;
+}
+.formSubmitBtn {
+    font-size: 13px;
+    background-color: #722C36;
+    height: 27px;
+    width: 25%;
+    padding: 2px 2px 2px 2px;
+    margin-top: 20px;
+    margin-left: 0%;
+    color: white!important;
+    font-family: "SanFranciscoDisplay-Regular";
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+}
+.formGroupDiv {
+    margin-left: 16%;
+}
+/*form ends*/
+
+.continerGenric20 {
+    margin-top: 20px
+}
+
+.hdHeader {
+    /*width: 340px;*/
+    /*margin-left: 40%;*/
+    display: inline-flex;
+    margin-top: 30px;
+}
+.cdpolaroidtext {
+   color: #3B312F;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0%;
+    margin-bottom: 13px;
+    letter-spacing: 0.08em;
+}
+
+.headerTestClass
+{
+    margin-top: 0% !important;
+   margin-left: 0% !important;
+}
+
+.thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 85%;
+    left: 0;
+    width: 100%;
+    text-shadow: none;
+}
+
+.continerGenric30
+{
+    margin-top : 15px;
+}
+
+/*$$2*/
+@media only screen and (max-width: 500px) and (min-width: 420px) {
+.sliderOuterDiv
+{
+    display: table-row;
+}
+.captionClass {
+    /*position: absolute;*/
+    bottom: 80%;
+    left: 0;
+    width: 88%;
+    padding-left: 12%;
+    text-shadow: none;
+}
+
+}
+@media only screen and (max-width: 600px) and (min-width: 501px) {
+    .sliderOuterDiv
+{
+    display: block;
+}
+    .offImges {
+         width: 80%;
+   height: 60%;
+
+    }
+
+    .containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.continerGenric30
+{
+    margin-top : 30px;
+}
+.serviceContinerMargin
+{
+    margin-top: -20px;
+}
+/*line-height: 30px;
+    letter-spacing: 0.05em;*/
+
+
+    .cd-image-txt2 {
+        cursor: pointer;
+        position: absolute;
+        color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    }
+    .thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 80%;
+    left: 0;
+    width: 88%;
+    padding-left: 12%;
+    text-shadow: none;
+}
+    .Rent-box {
+        height: 470px;
+        /*/width: 50%;*/
+
+        width: 85%;
+        /*/ padding-bottom: 40px;*/
+    }
+    .RentContinerDiv {
+        margin: 3.5% 0% 0% 15%;
+    }
+    .our-process {
+        color: #3B312F;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom: 0.5px solid #808080;
+    }
+    .customAlignClass {
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -4% !important;
+        margin-right: 0% !important
+    }
+    .customAlignClass2 {
+        /*margin-left: -10% !important;*/
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -4% !important;
+        margin-right: 0% !important
+    }
+    .Offbox {
+        height: 350px;
+        width: 100%;
+    }
+    .OffMarginBottom {
+        margin-bottom: 40px;
+    }
+    .OfflearnMore {
+        width: 30%;
+        font-family: "SanFranciscoDisplay";
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+.offImges {
+         width: 80%;
+   height: 66% !important;
+
+
+    }
+    .Offbox {
+    height: 430px;
+    width: 100%;
+}
+
+    .containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 5px;
+}
+
+.continerGenric30
+{
+    margin-top : 30px;
+}
+.serviceContinerMargin
+{
+    margin-top: -20px;
+}
+/*line-height: 30px;
+    letter-spacing: 0.05em;*/
+
+
+    .cd-image-txt2 {
+        cursor: pointer;
+        position: absolute;
+        color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    }
+    .thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 80%;
+    left: 0;
+    width: 88%;
+    padding-left: 12%;
+    text-shadow: none;
+}
+    .Rent-box {
+        height: 470px;
+        /*/width: 50%;*/
+
+        width: 85%;
+        /*/ padding-bottom: 40px;*/
+    }
+    .RentContinerDiv {
+        margin: 3.5% 0% 0% 15%;
+    }
+    .our-process {
+        color: #3B312F;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 14px;
+        line-height: 16px;
+        border-bottom: 0.5px solid #808080;
+    }
+    .customAlignClass {
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -4% !important;
+        margin-right: 0% !important
+    }
+    .customAlignClass2 {
+        /*margin-left: -10% !important;*/
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -4% !important;
+        margin-right: 0% !important
+    }
+    
+    .OffMarginBottom {
+        margin-bottom: 40px;
+    }
+    .OfflearnMore {
+        width: 30%;
+        font-family: "SanFranciscoDisplay";
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-left: 0%;
+    }
+}
+/*$$3*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .sliderOuterDiv
+{
+    display: block;
+}
+     .containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 20px;
+}
+.serviceContinerMargin
+{
+    margin-top: 80px;
+}
+/*line-height: 30px;
+    letter-spacing: 0.05em;*/
+
+    .cd-image-txt2 {
+        cursor: pointer;
+        position: absolute;
+        color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    }
+    .our-process {
+        color: #3B312F;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        line-height: 16px;
+        border-bottom: 1px solid #808080;
+    }
+
+     .thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 82%;
+    left: 0;
+    width: 80%;
+    padding-left: 20%;
+    text-shadow: none;
+}
+
+    /* section2 service section */
+
+    .servceClassHeader {
+        color: #414042;
+        font-family: "Optima";
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* section3 service text section */
+
+    .serviceTextHeader {
+        color: #3B3B3B;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+        width: 80%
+    }
+    /*Section 4 All services like Photography, Cleaning ectc*/
+
+    .imageSize {
+        height: 100px;
+        width: 100px;
+    }
+    .serviceImagesAllCommonCSS {
+        height: 0.34%;
+        width: 13.63%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 16px;
+        letter-spacing: .08em;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #722C36;
+    }
+    .servietext {
+        height: 113px;
+        width: 310px;
+        color: #3B3B3B;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 10px;
+        font-family: "SanFranciscoDisplay-Regular"
+    }
+    .serviceContainerClass {
+        padding-bottom: 20px
+    }
+    /*Rent Header starts*/
+
+    .col-sm-offset-2 {
+        margin-left: 3.2% !important;
+        /* <- your value here */
+    }
+    .Rent-box {
+        height: 470px;
+        /*/width: 50%;*/
+
+        width: 48%;
+        /*/ padding-bottom: 40px;*/
+    }
+    .RentContinerDiv {
+        margin: 10px;
+    }
+    .formOuterDiv {
+        padding-top: 50px;
+    }
+    legend.scheduler-border {
+        width: inherit;
+        /* Or auto */
+
+        padding: 0 10px;
+        /* To give a bit of padding on the left and right */
+
+        border-bottom: none
+    }
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+    }
+    .rentHeaderText {
+        color: #3B312F;
+        font-family: "Optima";
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+    }
+    .textRent {
+        width: 100%;
+        color: #525252;
+        font-family: "SanFranciscoDisplay-Regular";
+         font-size: 17px;
+        line-height: 0;
+        text-align: center;
+        padding-top: 15px
+    }
+    /*Rent Header ends*/
+    /*Short term long term rent section */
+
+    .alignmentDiv {
+        padding-top: 10px;
+        padding-bottom: 30px
+    }
+    .rentalHeader {
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: left;
+        letter-spacing: 2px;
+        padding-top: 20px
+    }
+    .daysText {
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 0;
+        padding-top: 20px;
+        text-align: left;
+    }
+    .rentParaText {
+        /*width: 341px;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .lineBreaker {
+        width: 96%;
+        margin-bottom: 0px !important;
+    }
+    ul.squareType {
+        /*list-style-type: square;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .customAlignClass {
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .customAlignClass2 {
+        /*margin-left: -10% !important;*/
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .ButtonITbegins {
+        margin-top: 25px;
+        margin-left: -7px
+    }
+    .Img_it-begins-here {
+        /*height: 0.41%;*/
+
+        width: 60%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay";
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0;
+        margin-top: 10%;
+        /* margin-left: 4%;*/
+    }
+    .customRentBox2 {
+        margin-top: 0px;
+    }
+    /*off section start*/
+
+    .off-season-peaceClass {
+        height: 0.64%;
+        color: #414042;
+        font-family: Optima;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .Offbox {
+        height: 450px;
+        width: 45%;
+    }
+    .col-md-offset-2 {
+        margin-left: 4% !important;
+        /* <- your value here */
+    }
+    .OffMarginBottom {
+        margin-bottom: 30px;
+    }
+    .offImges {
+        width: 100%;
+        height: 37%;
+    }
+    .OffalignmentDiv {
+        padding-left: 4%;
+    }
+    .cottage-text-Header {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-SemiBold";
+        font-size: 20px;
+        letter-spacing: .08em;
+        margin-top: 5%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .offParaText {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .OfflearnMore {
+        width: 45%;
+        font-family: "SanFranciscoDisplay";
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .LongBorderBelowText {
+        height: 1px !important;
+        width: 90%;
+        /*border: 1px solid #464646 !important;*/
+
+        background-color: #464646;
+        margin-top: 40px;
+    }
+    /*off sectionends*/
+    /*carousel starts */
+
+    .myCarouselContainer {
+        width: 100%;
+    }
+    .carousel .item {
+        height: 220px;
+    }
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 220px;
+    }
+    .divCarouselText {
+        /* margin-bottom: 20%;
+    margin-left: -10%;*/
+
+        margin-bottom: 6%;
+        margin-left: -9%;
+        width: 70%;
+    }
+    .carousalHeader {
+        color: #FFFFFF;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 12px;
+        letter-spacing: 1px;
+        line-height: 0;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    .hrStyle {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .CarousalComment {
+        color: #FFFFFF;
+        font-family: "Myriad Pro";
+        font-size: 14px;
+    }
+    .CarausalName {
+        color: #FFFFFF;
+        font-family: "Myriad Pro";
+        font-size: 13px;
+        text-align: right;
+    }
+
+    .continerGenric30
+    {
+        margin-top: 30px;
+    }
+    /*carousel ends*/
+    /*form starts*/
+
+    /*form starts*/
+
+.formLabel {
+    color: #722C36;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 0px !important;
+}
+.formTextbox {
+    color: #040404;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    margin-right: 4%;
+    width: 20%;
+    border-style: none none solid none;
+    border-width: 0.7px;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    -moz-transition: none !important;
+    -webkit-transition: none !important;
+    -o-transition: color 0 ease-in !important;
+    transition: none !important;
+    -webkit-box-shadow: none !important;
+    padding: 0;
+}
+.formSubmitBtn {
+    font-size: 12px;
+    background-color: #722C36;
+    height: 27px;
+    width: 13%;
+    padding: 2px 2px 2px 2px;
+    margin-top: 20px;
+    margin-left: 0%;
+    color: white!important;
+    font-family: "SanFranciscoDisplay-Regular";
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+}
+.formGroupDiv {
+    margin-left: 2%;
+}
+/*form ends*/
+}
+/*$$4*/
+/* Medium devices (desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*overflow-x: visible;*/ 
+}
+    .sliderOuterDiv
+{
+    display: block;
+}
+    .containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 20px;
+}
+.serviceContinerMargin
+{
+    margin-top: 120px;
+}
+/*line-height: 30px;
+    letter-spacing: 0.05em;*/
+    .cd-image-txt2 {
+        cursor: pointer;
+        position: absolute;
+        color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    }
+    .our-process {
+        color: #3B312F;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 16px;
+        border-bottom: 1px solid #808080;
+    }
+
+     .thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 85.5%;
+    left: 0;
+    width: 80%;
+    text-shadow: none;
+    padding-left: 20%
+}
+    /* section2 service section */
+
+    .servceClassHeader {
+        color: #414042;
+        font-family: "Optima";
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* section3 service text section */
+
+    .serviceTextHeader {
+        color: #3B3B3B;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 17px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+        width: 80%
+    }
+    /*Section 4 All services like Photography, Cleaning ectc*/
+
+    .imageSize {
+        height: 120px;
+        width: 120px;
+    }
+    .serviceImagesAllCommonCSS {
+        height: 0.34%;
+        width: 13.63%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 17px;
+        letter-spacing: .08em;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #722C36;
+    }
+    .servietext {
+        height: 113px;
+        width: 310px;
+        color: #3B3B3B;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 10px;
+        font-family: "SanFranciscoDisplay-Regular"
+    }
+    .serviceContainerClass {
+        padding-bottom: 20px
+    }
+    /*Rent Header starts*/
+
+    .Rent-box {
+        height: 395px;
+        /*/width: 50%;*/
+
+        width: 45%;
+        /*/ padding-bottom: 40px;*/
+    }
+    .col-sm-offset-2 {
+        margin-left: 3.2% !important;
+        /* <- your value here */
+    }
+    .RentContinerDiv {
+        margin: 3.5% 1% 1% 6%;
+    }
+    .formOuterDiv {
+        padding-top: 60px;
+    }
+    legend.scheduler-border {
+        width: inherit;
+        /* Or auto */
+
+        padding: 0 10px;
+        /* To give a bit of padding on the left and right */
+
+        border-bottom: none
+    }
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+    }
+    .rentHeaderText {
+        color: #3B312F;
+        font-family: "Optima";
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+    }
+    .textRent {
+        width: 100%;
+        color: #525252;
+        font-family: "SanFranciscoDisplay-Regular" ;
+        font-size: 17px;
+        line-height: 0;
+        text-align: center;
+        padding-top: 15px
+    }
+    /*Rent Header ends*/
+    /*Short term long term rent section */
+
+    .alignmentDiv {
+        padding-top: 10px;
+        padding-bottom: 30px
+    }
+    .rentalHeader {
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: left;
+        letter-spacing: 2px;
+        padding-top: 20px
+    }
+    .daysText {
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 0;
+        padding-top: 20px;
+        text-align: left;
+    }
+    .rentParaText {
+        /*width: 341px;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .lineBreaker {
+        width: 96%;
+        margin-bottom: 0px !important;
+    }
+    ul.squareType {
+        /*list-style-type: square;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .pointsAlignment{
+        padding-left: 1.2%;
+    }
+    .customAlignClass {
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .customAlignClass2 {
+        /*margin-left: -10% !important;*/
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .ButtonITbegins {
+        margin-top: 25px;
+        margin-left: -7px
+    }
+    .Img_it-begins-here {
+        /*height: 0.41%;*/
+
+        width: 60%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay";
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0;
+        margin-top: 10%;
+        /* margin-left: 4%;*/
+    }
+    .customRentBox2 {
+        margin-top: 0px;
+    }
+    /*off section start*/
+
+    .off-season-peaceClass {
+        height: 0.64%;
+        color: #414042;
+        font-family: Optima;
+        font-size: 27px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .Offbox {
+        height: 450px;
+        width: 45%;
+    }
+    .col-md-offset-2 {
+        margin-left: 4% !important;
+        /* <- your value here */
+    }
+    .OffMarginBottom {
+        margin-bottom: 30px;
+    }
+    .offImges {
+        width: 100%;
+        height: 49.25%;
+    }
+    .OffalignmentDiv {
+        padding-left: 4%;
+    }
+    .cottage-text-Header {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-SemiBold";
+        font-size: 21px;
+        letter-spacing: .08em;
+        margin-top: 5%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .offParaText {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .OfflearnMore {
+        width: 45%;
+        font-family: "SanFranciscoDisplay";
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .LongBorderBelowText {
+        height: 1px !important;
+        width: 90%;
+        /*border: 1px solid #464646 !important;*/
+
+        background-color: #464646;
+        margin-top: 40px;
+    }
+    /*off sectionends*/
+    /*carousel starts */
+
+    .myCarouselContainer {
+        width: 100%;
+    }
+    .carousel .item {
+        height: 260px;
+    }
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 260px;
+    }
+    .divCarouselText {
+        /* margin-bottom: 20%;
+    margin-left: -10%;*/
+
+        margin-bottom: 8%;
+        margin-left: -11%;
+        width: 70%;
+    }
+    .carousalHeader {
+        color: #FFFFFF;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 13px;
+        letter-spacing: 1px;
+        line-height: 0;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    .hrStyle {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .CarousalComment {
+        color: #FFFFFF;
+        font-family: "Myriad Pro";
+        font-size: 15px;
+    }
+    .CarausalName {
+        color: #FFFFFF;
+        font-family: "Myriad Pro";
+        font-size: 14px;
+        text-align: right;
+    }
+    .continerGenric30
+    {
+        margin-top: 30px;
+    }
+    /*carousel ends*/
+    /*form starts*/
+
+    .formLabel {
+        color: #722C36;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: left
+    }
+    .formTextbox {
+        color: #040404;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 14px;
+        letter-spacing: 1px;
+        border-radius: 0px;
+        margin-right: 0%;
+        width: 230px;
+        padding:0;
+        border-style: none none solid none;
+        border-width: 0.7px;
+        border-bottom: 1px solid #000000;
+        background-color: transparent;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -o-transition: color 0 ease-in !important;
+        transition: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    .formSubmitBtn {
+        font-size: 13px;
+        background-color: #722C36;
+        height: 27px;
+        width: 10%;
+        padding: 2px 2px 2px 2px;
+        margin-top: 20px;
+        margin-left: 0%;
+        color: white!important;
+        font-family: "SanFranciscoDisplay-Regular";
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 0.1em;
+    }
+    .formGroupDiv {
+        margin-left: 10%;
+    }
+    /*form ends*/
+}
+/*$$5*/
+/* Large devices (large desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+
+    html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*overflow-x: visible;*/ 
+}
+    /*@media (min-width: @screen-lg-min) {*/
+.sliderOuterDiv
+{
+    display: block;
+}
+.containerImage
+{
+    width:100% !important;
+    margin:0 !important;
+    padding: 0;
+    padding-top: 20px;
+}
+.serviceContinerMargin
+{
+    margin-top: 170px;
+}
+
+
+    .cd-image-txt2 {
+        cursor: pointer;
+        position: absolute;
+        color: #808080;
+    font-family: "SanFranciscoDisplay-Regular";
+    float: right;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    }
+    .our-process {
+        color: #3B312F;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 17px;
+        line-height: 16px;
+        border-bottom: 2px solid #808080;
+    }
+
+    .thumbnail {
+    position: relative;
+    border: none;
+    padding-top: 70px;
+
+}
+
+.captionClass {
+    /*position: absolute;*/
+    bottom: 81%;
+    left: 0;
+    width: 81%;
+    text-shadow: none;
+    padding-left: 19%
+}
+    /* section2 service section */
+
+    .servceClassHeader {
+        color: #414042;
+        font-family: "Optima";
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* section3 service text section */
+
+    .serviceTextHeader {
+        color: #3B3B3B;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        padding-top: 20px;
+        width: 80%
+    }
+    /*Section 4 All services like Photography, Cleaning ectc*/
+
+    .imageSize {
+        height: 120px;
+        width: 120px;
+    }
+    .serviceImagesAllCommonCSS {
+        height: 0.34%;
+        width: 13.63%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 18px;
+        letter-spacing: .08em;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #722C36;
+    }
+    .servietext {
+        height: 113px;
+        width: 310px;
+        color: #3B3B3B;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 10px;
+        font-family: "SanFranciscoDisplay-Regular"
+    }
+    .serviceContainerClass {
+        padding-bottom: 20px
+    }
+    /*Rent Header starts*/
+
+    .Rent-box {
+        height: 395px;
+        /*/width: 50%;*/
+
+        width: 40%;
+        /*/ padding-bottom: 40px;*/
+    }
+    .RentContinerDiv {
+        margin: 3.5% 1% 1% 11%;
+    }
+    .col-sm-offset-2 {
+        margin-left: 6.2% !important;
+        /* <- your value here */
+    }
+    .formOuterDiv {
+        padding-top: 70px;
+    }
+    legend.scheduler-border {
+        width: inherit;
+        /* Or auto */
+
+        padding: 0 10px;
+        /* To give a bit of padding on the left and right */
+
+        border-bottom: none
+    }
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+    }
+    .rentHeaderText {
+        color: #3B312F;
+        font-family: "Optima";
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+    }
+    .textRent {
+        width: 100%;
+        color: #525252;
+        font-family: "SanFranciscoDisplay-Regular";
+         font-size: 16px;
+        line-height: 0;
+        text-align: center;
+        padding-top: 15px
+    }
+    /*Rent Header ends*/
+    /*Short term long term rent section */
+
+    .alignmentDiv {
+        padding-top: 10px;
+        padding-bottom: 30px
+    }
+    .rentalHeader {
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 21px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: left;
+        letter-spacing: 2px;
+        padding-top: 20px
+    }
+    .daysText {
+        font-family: "SanFranciscoDisplay-Bold";
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 0;
+        padding-top: 10px;
+        /*padding-top: 20px;*/
+        text-align: left;
+    }
+    .rentParaText {
+        /*width: 341px;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .lineBreaker {
+        width: 96%;
+        margin-bottom: 0px !important;
+    }
+    ul.squareType {
+        /*list-style-type: square;*/
+
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 20px;
+    }
+    .pointsAlignment{
+        padding-left: 2.2%;
+    }
+    .customAlignClass {
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .customAlignClass2 {
+        /*margin-left: -10% !important;*/
+        /*width: 100% !important;*/
+
+        padding: 0% !important;
+        margin-left: -7% !important;
+        margin-right: 0% !important
+    }
+    .ButtonITbegins {
+        margin-top: 25px;
+        margin-left: -7px
+    }
+    .Img_it-begins-here {
+        /*height: 0.41%;*/
+
+        width: 60%;
+        color: #722C36;
+        font-family: "SanFranciscoDisplay";
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 0;
+        margin-top: 10%;
+        /* margin-left: 4%;*/
+    }
+    .customRentBox2 {
+        margin-top: 0px;
+    }
+    /*off section start*/
+
+    .off-season-peaceClass {
+        height: 0.64%;
+        color: #414042;
+        font-family: Optima;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-top: 6%;
+    }
+    .Offbox {
+        height: 450px;
+        width: 45%;
+    }
+    .col-md-offset-2 {
+        margin-left: 4% !important;
+        /* <- your value here */
+    }
+    .OffMarginBottom {
+        margin-bottom: 30px;
+    }
+    .offImges {
+        width: 100%;
+        height: 59.25%;
+    }
+    .OffalignmentDiv {
+        padding-left: 4%;
+    }
+    .cottage-text-Header {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-SemiBold";
+        font-size: 22px;
+        letter-spacing: .08em;
+        margin-top: 5%;
+        text-align: center;
+        justify-content: center;
+        margin-left: 0%;
+    }
+    .offParaText {
+        color: #333333;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .OfflearnMore {
+        width: 45%;
+        font-family: "SanFranciscoDisplay";
+        font-size: 10px;
+        font-weight: bold;
+        line-height: 0;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .LongBorderBelowText {
+        height: 1px !important;
+        width: 90%;
+        /*border: 1px solid #464646 !important;*/
+
+        background-color: #464646;
+        margin-top: 40px;
+    }
+    /*off sectionends*/
+    /*carousel starts */
+
+    .myCarouselContainer {
+        width: 100%;
+    }
+    .carousel .item {
+        height: 300px;
+    }
+    .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 300px;
+    }
+    .divCarouselText {
+        /* margin-bottom: 20%;
+    margin-left: -10%;*/
+
+        margin-bottom: 13%;
+        margin-left: -14%;
+        width: 70%;
+    }
+    .carousalHeader {
+        color: #FFFFFF;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 0;
+        padding-bottom: 3px;
+        text-align: center;
+    }
+    .hrStyle {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .CarousalComment {
+        color: #FFFFFF;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 21px;
+    }
+    .CarausalName {
+        color: #FFFFFF;
+        font-family: SanFranciscoDisplay-Regular;
+        font-size: 16px;
+        text-align: right;
+
+    }
+    .continerGenric30
+    {
+        margin-top: 30px;
+    }
+    /*carousel ends*/
+
+    /*form starts*/
+
+    .formLabel {
+        color: #722C36;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-align: left
+    }
+    .formTextbox {
+        color: #040404;
+        font-family: "SanFranciscoDisplay-Regular";
+        font-size: 14px;
+        letter-spacing: 1px;
+        border-radius: 0px;
+        margin-right: 0%;
+        width: 230px;
+        padding:0;
+        border-style: none none solid none;
+        border-width: 0.7px;
+        border-bottom: 1px solid #000000;
+        background-color: transparent;
+        -moz-transition: none !important;
+        -webkit-transition: none !important;
+        -o-transition: color 0 ease-in !important;
+        transition: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    .formSubmitBtn {
+        font-size: 14px;
+        background-color: #722C36;
+        height: 27px;
+        width: 10%;
+        padding: 2px 2px 2px 2px;
+        margin-top: 20px;
+        margin-left: 0%;
+        color: white!important;
+        font-family: "SanFranciscoDisplay-Regular";
+        border: none;
+        border-radius: 5px;
+        letter-spacing: 0.1em;
+    }
+    .formGroupDiv {
+        margin-left: 10%;
+    }
+    /*form ends*/
+
+
+}

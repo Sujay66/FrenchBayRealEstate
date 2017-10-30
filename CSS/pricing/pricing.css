@@ -1,0 +1,820 @@
+/*fontawesome*/
+@font-face {
+   font-family: "Optima";
+   src: url("../../FONTS/Optima-Bold.ttf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Regular";
+   src: url("../../FONTS/SanFranciscoDisplay-Regular.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Bold";
+   src: url("../../FONTS/SanFranciscoDisplay-Bold.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Light";
+   src: url("../../FONTS/SanFranciscoDisplay-Light.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Semibold";
+   src: url("../../FONTS/SanFranciscoDisplay-Semibold.otf");
+}
+
+
+/*fonts*/
+
+.learnmore{
+    color: #333333;
+    	font-family: "San Francisco Display";
+      font-size: 16px;
+      letter-spacing: 0.08em;
+      line-height: 36px;
+      text-align: center;
+      border-bottom: 2px solid #808080;
+    }
+
+    .cd-form-head2{
+
+    color: #525252;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -20px;
+
+    }
+
+
+.tabsfont {
+ width: 289px;
+ color: #ddd;
+ font-family: "SanFranciscoDisplay-Regular";
+ font-size: 15.9px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 0.08em;
+ margin: auto;
+}
+
+.tabsfont:hover {
+ width: 289px;
+ color: #722C35;
+ font-family: "SanFranciscoDisplay-Regular";
+ font-size: 15.9px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 0.08em;
+ margin: auto;
+}
+
+.body-text {
+  color: #3B3B3B;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 16px;
+
+ }
+/*tabs*/
+
+
+
+.tab__wrap {
+    overflow-x: hidden;
+}
+
+.tabs-container {
+  max-width: 1010px;
+  margin: 80px auto 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+
+.tabone{
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #722C35;
+  width: 289px;
+  color: #722C35;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+
+.tabtwo {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+  width: 289px;
+  color: #ddd;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+
+
+
+.tabtwo:hover {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+  width: 289px;
+  color: #722C35;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+.gsbutton{
+   background-color: #722C35;
+    font-size: 14px;
+    padding: 6px 6px 6px 6px;
+    color: white!important;
+    font-family: "SanFranciscoDisplay-Regular";
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+    width: 140px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+body{
+  font:1.2em normal Arial,sans-serif;
+  color:#34495E;
+}
+
+h1{
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:-2px;
+  font-size:2.5em;
+  margin:20px 0;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+.blue{
+  border:2px solid #1ABC9C;
+}
+
+.blue thead{
+  background:#1ABC9C;
+}
+
+.purple{
+  border:2px solid #9B59B6;
+}
+
+.purple thead{
+  background:#9B59B6;
+}
+
+thead{
+  color:white;
+}
+
+th,td{
+  text-align:center;
+  padding:5px 0;
+}
+
+tbody tr:nth-child(even){
+  background:#ECF0F1;
+}
+
+tbody tr:hover{
+background:#BDC3C7;
+  color:#FFFFFF;
+}
+
+.fixed{
+  top:0;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+
+.scrollMore{
+  margin-top:600px;
+}
+
+.up{
+  cursor:pointer;
+}
+
+
+.price {
+  color: #3B3B3B;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 40px;
+  margin-bottom: -6px;
+ }
+
+ .boldprice {
+   color: #3B3B3B;
+   font-family: "SanFranciscoDisplay-Semibold";
+   font-size: 40px;
+   margin-bottom: -6px;
+  }
+
+  .mt-5p {
+
+    margin-top:5%;
+  }
+
+
+}
+
+
+   @media (min-width: 400px) {
+     .tabs-container {
+       display: flex;
+     }
+   }
+
+   .mt-25 {
+       margin-top: 25px;
+   }
+
+
+/*
+Table*/
+
+.comparison {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-family: "SanFranciscoDisplay-Regular";
+  text-align: center;
+  padding: 10px;
+}
+
+.comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+.comparison td,
+.comparison th {
+  border-right: 1px solid #E8E8E8;
+  empty-cells: show;
+  padding: 10px;
+  border-top: 1px solid #E8E8E8;
+  border-bottom: 1px solid #E8E8E8;
+  color: #7D7D80;
+  font-size: 15px;
+}
+
+
+.comparison tbody tr:nth-child(odd) {
+  display: none;
+}
+
+.greybg {
+  background-color: #F7F7F7 !important;
+
+
+}
+
+.comparison th img {
+
+  margin: 0px 15px 25px 20px;
+}
+
+.comparison tbody tr:nth-child(odd) {
+  display: none;
+}
+
+.comparison .compare-row {
+  background: #Fff;
+}
+
+.fa-check {
+  color: #722c36;
+}
+
+.comparison th {
+  font-weight: normal;
+  padding: 0;
+  border-top: 0px solid #E8E8E8;
+  border-bottom: 0px solid #E8E8E8;
+}
+
+.comparison tr td:first-child {
+  text-align: left;
+  max-width: 140px;
+  padding: 15px;
+  border-left: 1px solid #E8E8E8;
+  border-top: 1px solid #E8E8E8;
+  font-family: "SanFranciscoDisplay-Bold";
+  font-size: 16px;
+}
+
+.comparison .product,
+.comparison .tl {
+  color: #722C36;
+  font-size: 14px;
+  font-family: "SanFranciscoDisplay-Regular";
+
+
+}
+
+.comparison .tl2 {
+  border-right: 0;
+}
+
+.comparison .product {
+  background: #E8E8E8;
+  height: 40px;
+  font-size: 1.4em;
+  text-align: center;
+
+}
+
+.comparison .price-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.comparison .price-now,
+.comparison .price-now span {
+  color: #808080;
+}
+
+.comparison .price-now span {
+  font-size: 36px;
+  color: #545454;
+}
+
+.comparison .price-now p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  display: inline;
+}
+
+.comparison .price-buy {
+  background: #EC671A;
+  padding: 10px 20px;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: 5px 0 10px 0;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.comparison .price-buy:hover {
+  background: #E84D00;
+}
+
+@media screen and (min-width: 721px) and (max-width: 1000px) {
+  .table_ul li {
+    letter-spacing: 0px;
+  }
+  .comparison .price-now span {
+    font-size: 32px;
+  }
+  .comparison .price-now p {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .table_ul {
+    padding: 0px;
+  }
+  .table_ul li {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 3px 0;
+  }
+  .comparison {
+    max-width: 100%;
+  }
+  .comparison td:first-child,
+  .comparison th:first-child {
+    display: none;
+  }
+  .comparison tbody tr:nth-child(odd) {
+      display: table-row;
+      background: #Fff;
+    }
+
+.greybg {
+
+background-color: #F7F7F7;
+
+}
+
+  .comparison .row {
+    background: #FFF;
+  }
+  .comparison td,
+  .comparison th {
+    border: 1px solid #CCC;
+    border-top: none;
+    padding: 10px;
+  }
+  .price-info {
+    border-top: 0 !important;
+    padding: 10px 0 !important;
+  }
+  .price-info p {
+
+  }
+
+  .comparison .product {
+    background: #E8E8E8;
+    height: 40px;
+    font-size: 1.2em;
+    text-align: center;
+
+  }
+
+  .price {
+    color: #3B3B3B;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 26px;
+    margin-bottom: 0px;
+   }
+
+   .boldprice {
+     color: #3B3B3B;
+     font-family: "SanFranciscoDisplay-Semibold";
+     font-size: 26px;
+     margin-bottom: 0px;
+    }
+
+  .comparison .compare-row {
+    background: #ffffff;
+  }
+
+.displaynone{
+  display: none;
+
+}
+
+  .comparison .price-now p {
+    display: block;
+  }
+  .comparison .price-now span {
+    font-size: 24px;
+  }
+  .comparison .qbse {
+    font-size: 1.2em;
+  }
+  .comparison td {
+    font-size: 14px;
+      border-right: 1px solid #E8E8E8;
+      empty-cells: show;
+      padding: 10px;
+      border-top: 1px solid #E8E8E8;
+      border-bottom: 1px solid #E8E8E8;
+      color: #7D7D80;
+      font-family: "SanFranciscoDisplay-Bold";}
+
+      .gsbutton{
+         background-color: #722C35;
+          font-size: 12px;
+          padding: 4px 0px 4px 0px;
+          color: white!important;
+          font-family: "SanFranciscoDisplay-Regular";
+          border: none;
+          border-radius: 5px;
+          letter-spacing: 0.1em;
+          width: 115px;
+          text-align: center;
+          margin: 0 auto;
+
+      }
+
+
+
+
+  .comparison th {
+    font-size: 14px;
+  }
+}
+
+/*mainqueries*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+.servClassHeaderblack {
+    color: #414042;
+    font-family: "Optima";
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.servClassHeader {
+  color: #722C36;
+  font-family: "Optima";
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 15px;
+      margin-right: 15px;
+      flex: 1;}
+
+
+
+.servhr{
+  height: 1px;
+  width: 10%;
+  color: #000 !important;
+}
+}
+
+
+
+
+@media (min-width: 576px) {
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+        flex: 1;
+
+  }
+
+  .servClassHeaderblack {
+      color: #414042;
+      font-family: "Optima";
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular" !important;
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%;
+  }
+
+
+
+  .servhr{
+    height: 1px;
+    width: 10%;
+    color: #000 !important;
+  }
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  .cd-form-head2{
+
+  color: #525252;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -20px;
+
+  }
+
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+
+
+  }
+
+  .servClassHeaderblack {
+      color: #414042;
+      font-family: "Optima";
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%
+  }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+
+
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%
+  }
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  .servceClassHeader {
+      color: #722C36;
+      font-family: "Optima";
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-left: 15px;
+          margin-right: 15px;
+          margin-top: -5px;
+
+
+
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 70%
+  }
+
+  .servhr{
+    height: 1px;
+    width: 10%;
+    background-color: #000 !important;
+  }
+}
+
+
+/*Break*/
+
+@media screen and (max-width: 540px) {
+    .tabone div span:last-of-type {
+        display: block;
+
+    }
+
+    .tabone{
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px;
+      flex: 1;
+      text-align: center;
+      border-bottom: 3px solid #722C35;
+      width: 289px;
+      color: #722C35;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: auto;
+    }
+
+
+    .tabtwo {
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px;
+      flex: 1;
+      text-align: center;
+      border-bottom: 3px solid #ddd;
+      width: 289px;
+      color: #ddd;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: auto;
+    }
+
+
+
+
+    .tabtwo:hover {
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px;
+      flex: 1;
+      text-align: center;
+      border-bottom: 3px solid #ddd;
+      width: 289px;
+      color: #722C35;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 15.9px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin: auto;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+
+.body-text {
+  display: none;
+
+  .price {
+    color: #3B3B3B;
+    font-family: "SanFranciscoDisplay-Regular";
+    font-size: 20px !important;
+    margin-bottom: -6px;
+   }
+
+   .boldprice {
+     color: #3B3B3B;
+     font-family: "SanFranciscoDisplay-Semibold";
+     font-size: 20px;
+     margin-bottom: -6px;
+    }
+
+ }}

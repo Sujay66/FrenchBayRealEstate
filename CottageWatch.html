@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="CSS/CottageWatchPage/cottagewatchstyle.css">
+	<link rel="stylesheet" href="CSS/header.css">
+
+	<link rel="stylesheet" href="CSS/CottageWatchPage/headerstyle.css">  <!-- Resource style -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="JS/CottageWatch/modernizr.js"></script> <!-- Modernizr -->
+	<script src="JS/CottageWatch/main.js"></script>
+
+	<link rel="shortcut icon" href="IMG/favicon.ico"/>
+  <link href="CSS/PopUps/CottageWatchPopUp2.css" rel="stylesheet" type="text/css">
+  <script src="JS/PopUps/PopUp.js" type="text/javascript"></script>
+	 <title>Cottage Watch</title>
+</head>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body onresize="modalOperation()">
+	<section id="preloader">
+		<div class="loader" id="loader">
+			<div class="loader-img"></div>
+		</div>
+	</section>
+	<nav class="navbar navbar-custom navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" style="width:50px;height:50px;padding:0px;" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="brand" href="/"><img class="companylogo" src="img/companylogo.svg"></a>
+			</div><!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="mt-20 collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right navbar-custom valign">
+					<li>
+						<a href="cottagewatch.html">COTTAGE WATCH</a>
+					</li>
+					<li>
+						<a href="OurProcess-ShortTerm.html">OUR PROCESS</a>
+					</li>
+					<li>
+						<a href="OurStoryPage.html">OUR STORY</a>
+					</li>
+						<li><a class= "cd-herder-contactus anchorLink" id="contactUS" href="#myAnchor" id="anchor1" href='javascript:;' onclick='display();'><span>CONTACT&nbsp;US</span></a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<section class="modal-sujay" id="myModal">
+		<div align="center" class="modal-content-sujay">
+			<span class="modal-close" onclick='closepopup();'>&times;</span>
+			<h2 class="modal-header-sujay">Get In Touch With Us</h2>
+			<div class="text-below-header">
+				<p class="lead"></p>
+				<p class="modal-header-body-text-content-sujay">Continue your journey towards achieving everyday Sunday by getting in touch to experience what we can do for your real estate dreams.</p>
+			</div>
+			<div style="padding: 15px 25px 10px 25px;">
+				<form action="/ourstory" class="form-horizontal" method="post" novalidate="" target="_self">
+					<div class="form-group">
+						<div class="col-sm-6">
+							<label class="labelClass">NAME</label> <input class="form-control modalTextAreaTextboxFont" id="mce-FNAME" name="FNAME" placeholder="ex. John Smith" type="text"> <input name="product" type="hidden" value="cottagewatch"> <label class="labelClass" style="padding-top: 14px">EMAIL</label> <input class="form-control modalTextAreaTextboxFont" id="mce-EMAIL" name="EMAIL" placeholder="ex. example@gmail.com" type="text">
+						</div>
+						<div class="col-sm-6">
+							<label class="labelClass">MESSAGE</label>
+							<textarea class="form-control modalTextAreaTextboxFont" id="mce-MESSAGE" name="MESSAGE" rows="7" style="resize: none"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<div align="center" class="col-sm-12">
+							<button style="margin-top: 5%; margin-bottom: 0%" type="submit">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+	<div class="bannercontainer">
+	<div class="cd-image-text-heading">
+		We go to work for you
+	</div>
+	<div class="cd-image-text">
+		We’re experts at monitoring your cottage while you’re away
+	</div><a class="pricingbutton" href="pricing.html">
+	<div>
+		SEE PRICING
+	</div></a>
+	<img class="imgopacity" src="IMG/CottageWatchPage/cottagewatch_1.svg"></div><!-- <div class="cd-middle-banner">
+            <p class="cd-image-text-heading">We go to work for you</p>
+                <p class ="cd-image-text" >We’re experts at monitoring your cottage while you’re away</p>
+                <p class="pricingbutton" style="z-index: 1">SEE PRICING</p>
+
+
+                <img class="header-image" style="position:relative;" style="z-index: -121313" src="IMG/CottageWatchPage/cottagewatch_1.svg" alt="banner"> -->
+	<div class="section">
+		<div class="body-content-fields">
+			<p class="body-content-heading">Off Season Value Delivered</p>
+			<p class="body-content-text">Storms and weather damage don’t wait for your return, so neither should you.<br>
+			That’s why we’ve designed a service for the most discerning cottage owners.</p>
+			<hr class="section1-line">
+		</div>
+	</div>
+	<div class="container" id="desktop-container">
+		<div class="center-container">
+			<div class="col-md-5 center-container-left">
+				<p class="section-heading">Personalized Services</p>
+				<p class="section-text">Frequency settings and a variety of monitoring features give you full control over the Cottage Watch service that best suits your needs and the requirements of your insurance provider</p><br>
+				<p class="section-heading">Detailed Inspections</p>
+				<p></p>
+				<p class="section-text">Comprehensive monitoring begins with your cottage’s exterior—roofing, vegetation, ventilation—and progresses room by room, checking each fixture and surface for signs of damage or default</p><br>
+				<p class="section-heading">Everywhere Access</p>
+				<p class="section-text">Regular email reports and an owner dashboard keep you connected to your cottage, providing you unlimited access to the photos and monitoring information that matter most</p>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-5">
+				<embed class="cottage-right-image" src="IMG/CottageWatchPage/cottagewatch.svg">
+			</div>
+		</div>
+	</div>
+	<div class="container" id="mob-container">
+		<div class="center-container">
+			<div class="col-md-5">
+				<embed class="cottage-right-image" src="IMG/CottageWatchPage/cottagewatch.svg">
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-5 center-container-left">
+				<p class="section-heading">Personalized Services</p>
+				<p class="section-text">Frequency settings and a variety of monitoring features give you full control over the Cottage Watch service that best suits your needs and the requirements of your insurance provider</p><br>
+				<p class="section-heading">Detailed Inspections</p>
+				<p></p>
+				<p class="section-text">Comprehensive monitoring begins with your cottage’s exterior—roofing, vegetation, ventilation—and progresses room by room, checking each fixture and surface for signs of damage or default</p><br>
+				<p class="section-heading">Everywhere Access</p>
+				<p class="section-text">Regular email reports and an owner dashboard keep you connected to your cottage, providing you unlimited access to the photos and monitoring information that matter most</p>
+			</div>
+		</div>
+	</div>
+	<div class="container1">
+		<div class="col-md-4">
+			<embed class="left-icon" src="IMG/CottageWatchPage/premium.svg">
+		</div>
+		<div class="col-md-5 cd-container1-text">
+			<p class="container1-heading">Premium Means More Value</p>
+			<p class="container1-text">Effortless cottage living from departure to arrival can now be yours—thanks to our Cottage Watch Premium services. We’ll open your cottage in the Spring, winterize it in the Fall, and ensure nothing happens in the off-season</p><a class="pricingbuttonpr" href="pricingpremium.html">
+			<div>
+				SEE PRICING
+			</div></a>
+		</div>
+	</div>
+	<div class="container2">
+		<div class="">
+			<div class="col-md-5">
+				<embed class="cottage-left" src="IMG/CottageWatchPage/ComputerMockup.svg">
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-5 cd-left-margin" style="margin-top: -5%;">
+				<p class="container2-heading">Easy-to-use Home Owner Profile + Email Updates</p>
+				<p class="container2-text">Within your Cottage Watch profile you can review and track our Cottage Watch reports and updates delivered directly to your inbox. Our reports are comprehensive and thorough including weather reports, property photos, and damage tracking</p>
+			</div>
+		</div>
+	</div>
+	<section class="section-faq">
+		<div>
+			<p class="section-faq-header">Frequently Asked Questions</p>
+			<hr class="section1-line">
+			<div class="faq mt-20">
+				<ul>
+					<li style="border-top:none;">
+						<input checked type="checkbox"> <i></i>
+						<h2>What is the difference between Cottage Watch and Cottage Watch Premium?</h2>
+						<p>Cottage Watch Premium customers receive all of the same monitoring services as Cottage Watch subscribers, with the added bonus of having us winterize their cottage in the Fall and open their cottage in the Spring. To winterize your cottage we clean it thoroughly, properly store linens and mattresses, drain all plumbing, set rodent deterrents, and where applicable, shutter windows and doors, and canvas porches. Come Spring, we again thoroughly clean your cottage, turn on the water, and ready the interior for your arrival by setting furniture, making beds, and ensuring all appliances function properly.</p>
+					</li>
+					<li>
+						<input checked type="checkbox"> <i></i>
+						<h2>How do Cottage Watch services relate to my homeowners insurance?</h2>
+						<p>We monitor your cottage and work with your insurance provider so that you stay compliant with your coverage policies. Many homeowners insurance policies offer limited or no coverage for unoccupied or vacant homes and depending on your policy, protection may cease or be severely reduced if the property is left uninhabited for as little as three days. We strongly advise you to review your policy with a trusted insurance agent and then contact us.</p>
+					</li>
+					<li>
+						<input checked type="checkbox"> <i></i>
+						<h2>What happens if there’s damage to my cottage while I’m away?</h2>
+						<p>Whether it’s a simple fix like a blown open window or severe damage caused by a fallen tree, we immediately notify you with details about the damage and, with your permission, set about fixing the problem directly or through a certified contractor. We’ll even help negotiate the best price on your behalf.</p>
+					</li>
+					<li>
+						<input checked type="checkbox"> <i></i>
+						<h2>How do you get access to my cottage for interior monitoring?</h2>
+						<p>At the end of each season you’ll provide us a key to your cottage or an access code to your smart lock. Unless it’s checked out for use, your key is always kept in a locked certified safe.</p>
+					</li>
+					<li>
+						<input checked type="checkbox"> <i></i>
+						<h2>Is French Bay Real Estate fully insured?</h2>
+						<p>Absolutely. French Bay Real Estate is a legally incorporated LLC which carries appropriate amounts of insurance and bonding.</p>
+					</li>
+				</ul>
+				<div class="section-faq-contact mb-50">
+					Have more questions about Cottage Watch? <span><a class="contact-us" href='javascript:;' onclick='display();'>&nbsp;&nbsp;Contact Us</a></span>
+				</div>
+			</div>
+		</div>
+		<a id="myAnchor" name="myAnchor"><strong></strong></a>
+	</section>
+	<footer class="container-fluid footer">
+		<div class="col-sm-4 cd-footer-left">
+			<a href="/"><img alt="company logo" class="cd-footer-image" src="IMG/OurStory-ShortTerm/CompanyLogo.svg"></a>
+			<hr class="cd-footer-hr">
+			<div>
+				info@frenchbayrealestate.com
+			</div>
+			<div>
+				USA: +1 315 243 3181
+			</div>
+			<div>
+				French Bay Real Estate, LLC
+			</div>
+			<div>
+				Jeremy Kellogg: NYS Licensed Real Estate Broker
+			</div>
+		</div>
+		<hr class="cd-footer-line mt-30" id="cd-footerline-mob">
+		<div class="col-sm-4">
+			<div class="cd-footer-center">
+				<!--        <a href="/">
+          <img class ="cd-footer-logo" src="IMG/CottageWatchPage/fb-logo.svg" ></img></a>
+          <a href="/">
+          <img class ="cd-footer-logo" src="IMG/CottageWatchPage/insta-logo.svg"></img></a>
+                    Enable icons whenever needed
+                -->
+			</div>
+		</div>
+		<hr class="cd-footer-line" id="cd-footerline-mob">
+		<div class="col-sm-4 cd-footer-links mt-10">
+			<p><a class="cd-footer-li" href="/">HOME</a></p>
+			<p><a class="cd-footer-active cd-footer-li" href="CottageWatch.html">COTTAGE WATCH</a></p>
+			<p><a class="cd-footer-li" href="OurProcess-ShortTerm.html">OUR PROCESS</a></p>
+			<p><a class="cd-footer-li" href="FAQ.html">INFORMATIONAL</a></p>
+			<p><a class="cd-footer-li" href="OurStoryPage.html">OUR STORY</a></p>
+		</div>
+	</footer>
+</body>
+</html>
+
+		<script src="js/theme.js" type="text/javascript"></script>
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+		<script src="JS/CottageWatch/script.js"></script> <!-- Resource jQuery -->
+		<script src="js/theme.js" type="text/javascript"></script>
+
+		<script>
+		    // $('a').click(function () {
+		    //     $('html, body').animate({
+		    //         // scrollTop: $($(this).attr('href')).offset().top
+		    //     }, 500);
+		    //     return false;
+		    // });
+		</script>
+		<script>
+
+		// $(window).load(function () {
+		//
+    //     // SITE PRELOADER                     ||-----------
+		//
+    //     $('#loader').fadeOut();
+    //     $('#preloader').delay(350).fadeOut('slow');
+    //     $('body').delay(350).css({ 'overflow': 'visible' });
+		//
+    //
+    // })
+		$("body").click(function (event) {
+			console.log("in body click out ");
+			//debugger;
+			/*if(event.target.getAttribute("class") !== "modal-content-sujay" && event.target.innerText !== "CONTACT US"){
+				 $("#myModal").hide();
+			}*/
+
+			/*console.log(event.target.getAttribute("class"));
+			if(event.target.innerText == "CONTACT US"){}
+			else if(event.target.getAttribute("class") !== "modal-content-sujay"){
+				console.log("inside cond");
+				$("#myModal").hide();
+			}*/
+
+			//$('#myModal').click(function () { $("#myModal").hide();  });
+			//$('.modal-content-sujay').click(function () {   });
+
+		 });
+
+window.onload = function () {
+	$('#myModal').click(function (event) {
+	if($('.modal-content-sujay').find(event.target).length == 1 || event.target.getAttribute("class") === "modal-content-sujay" ){
+		//Do something inside pop up click
+	} else
+	 	$("#myModal").hide();
+ });
+};
+
+	/*window.onload = function () {
+			$(document).on("click", function(e) {
+				console.log("inside div");
+				var temp = document.getElementById('myModal');
+
+				if(temp.style.display == "block"){
+				$('#myModal').hide();
+			}
+				// $('#loader').fadeOut();
+				// $('#preloader').delay(350).fadeOut('slow');
+				// $('body').delay(350).css({ 'overflow': 'visible' });
+	});
+}*/
+	</script>
+</body>
+</html>

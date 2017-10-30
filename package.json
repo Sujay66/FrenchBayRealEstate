@@ -1,0 +1,20 @@
+{
+  "name": "SevenSundays",
+  "version": "1.0.0",
+  "description": "A French Bay associated Realtor site.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "nodemailer": "^4.0.0",
+    "nodemailer-smtp-transport": "^2.0.0"
+  },
+  "repository": {
+    "type": "Bitbucket",
+    "url": "https://Kevinrieck@bitbucket.org/Kevinrieck/seven-sundays.git"
+  },
+  "author": "Sujay",
+  "license": "ISC"
+}

@@ -1,0 +1,498 @@
+/*fontawesome*/
+@font-face {
+   font-family: "Optima";
+   src: url("../../FONTS/Optima-Bold.ttf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Regular";
+   src: url("../../FONTS/SanFranciscoDisplay-Regular.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Bold";
+   src: url("../../FONTS/SanFranciscoDisplay-Bold.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Light";
+   src: url("../../FONTS/SanFranciscoDisplay-Light.otf");
+}
+@font-face {
+   font-family: "SanFranciscoDisplay-Semibold";
+   src: url("../../FONTS/SanFranciscoDisplay-Semibold.otf");
+}
+
+
+/*fonts*/
+
+.tabsfont {
+ width: 289px;
+ color: #ddd;
+ font-family: "SanFranciscoDisplay-Regular";
+ font-size: 15.9px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 0.08em;
+ margin: auto;
+}
+
+.tabsfont:hover {
+ width: 289px;
+ color: #722C35;
+ font-family: "SanFranciscoDisplay-Regular";
+ font-size: 15.9px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 0.08em;
+ margin: auto;
+}
+
+
+/*tabs*/
+
+
+.tab__wrap {
+    overflow-x: hidden;
+}
+
+.tabs-container {
+  max-width: 1010px;
+  margin: 80px auto 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+
+
+.tabtwo{
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #722C35;
+  width: 289px;
+  color: #722C35;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 15.9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+
+.tabone {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+  width: 289px;
+  color: #ddd;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 15.9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+
+
+
+.tabone:hover {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px;
+  flex: 1;
+  text-align: center;
+  border-bottom: 3px solid #ddd;
+  width: 289px;
+  color: #722C35;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 15.9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: auto;
+}
+
+
+
+.consultbutton{
+   background-color: #722C35;
+    font-size: 14px;
+    padding: 6px 6px 6px 6px;
+    color: white!important;
+    font-family: "SanFranciscoDisplay-Regular";
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 0.1em;
+    width: 190px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.cd-form-head2{
+
+color: #525252;
+font-family: "SanFranciscoDisplay-Regular";
+font-size: 14px;
+width: 60%;
+margin: 0 auto;
+text-align: center;
+margin-top: -20px;
+
+}
+
+
+
+.call-out .price span {
+  font-size: 36px;
+  color: #545454;
+}
+
+
+.call-out .price-now span {
+  font-size: 36px;
+  color: #545454;
+  margin-left: 40px;
+  margin-bottom: 20px;
+
+ }
+
+
+.call-outs-container {
+  max-width: 970px;
+  margin: 60px auto 0 auto;
+  border: 1px solid #414042;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+
+
+}
+
+.call-out {
+  padding: 9px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 33%;
+  margin-top: 30px;
+
+}
+
+
+
+.call-out-center{
+  margin: auto;
+  text-align: center;
+}
+
+
+.call-out .price p {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+
+}
+
+.call-out .price-now p {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+  margin-bottom: 20px;
+
+}
+
+.call-out .price-now div {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline;
+  margin-bottom: 20px;
+
+}
+
+@media (min-width: 900px) {
+  .call-outs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .call-out-center{
+    margin: auto;
+    text-align: center;
+    display
+  }
+}
+
+.service-head {
+  color: #722C36;
+  font-size: 21px;
+  font-family: "SanFranciscoDisplay-SemiBold";
+  letter-spacing: 0.08em;
+  margin-left: 40px;
+  margin-bottom: 8px;
+
+}
+
+.vertruler{
+
+  border-left: solid 1px #000;
+  height: 353px;
+  display: inline;
+}
+
+}
+
+@media (min-width: 400px) {
+  .tabs-container {
+    display: flex;
+  }
+}
+
+.servClassHeaderblack {
+    color: #414042;
+    font-family: "Optima";
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.servClassHeader {
+  color: #722C36;
+  font-family: "Optima";
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 20px;
+  margin-left: 15px;
+      margin-right: 15px;
+      flex: 1;}
+
+
+
+.servhr{
+  height: 1px;
+  width: 10%;
+  color: #000 !important;
+}
+}
+
+
+@media (min-width: 576px) {
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+        flex: 1;
+
+  }
+
+  .servClassHeaderblack {
+      color: #414042;
+      font-family: "Optima";
+      font-size: 19px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%
+  }
+
+
+
+  .servhr{
+    height: 1px;
+    width: 10%;
+    color: #000 !important;
+  }
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+  .cd-form-head2{
+
+  color: #525252;
+  font-family: "SanFranciscoDisplay-Regular";
+  font-size: 18px;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -20px;
+
+  }
+
+
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+
+
+  }
+
+  .servClassHeaderblack {
+      color: #414042;
+      font-family: "Optima";
+      font-size: 23px;
+      font-weight: bold;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%
+  }
+
+
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+  .servClassHeader {
+    color: #722C36;
+    font-family: "Optima";
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 15px;
+        margin-right: 15px;
+
+
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 87%
+  }
+
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+  .servceClassHeader {
+      color: #722C36;
+      font-family: "Optima";
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 20px;
+      margin-left: 15px;
+          margin-right: 15px;
+          margin-top: -5px;
+
+
+
+  }
+
+  .servTextHeader {
+      color: #3B3B3B;
+      font-family: "SanFranciscoDisplay-Regular";
+      font-size: 16px;
+      line-height: 20px;
+      text-align: center;
+      padding-top: 20px;
+      width: 70%
+  }
+
+  .servhr{
+    height: 1px;
+    width: 10%;
+    background-color: #000 !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 400px) {
+
+.call-out-centertwo{
+  margin: auto;
+  text-align: center;
+
+
+}
+
+.vertruler{
+
+  border-left: solid 1px transparent;
+  height: 345px;
+
+}
+
+.call-out .price-now p {
+    font-size: 14px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: -35px;
+}
+
+.service-head {
+    color: #722C36;
+    font-size: 21px;
+    font-family: "SanFranciscoDisplay-Semibold";
+    letter-spacing: 0.08em;
+    margin-left: 0px;
+}
+
+}
+
+
+
+
+/*margins*/
+
+
+.mt-5p {
+
+  margin-top:5%;
+}
+
+.mt-20 {
+
+  margin-top:20px;
+}
+
+@media screen and (max-width: 540px) {
+    .tabone div span:last-of-type {
+        display: block;
+
+    }
+
+}
